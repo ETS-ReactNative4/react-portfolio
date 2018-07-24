@@ -1,55 +1,55 @@
 [
   {
     "name": "Band It",
-    "thumbnail": "./images/BandIt.jpg",
+    "thumbnail": "./images/projectThumbnails/BandIt.jpg",
+    "decription": "",
+    "gitHub": "https://github.com/marcushilaire/band-it",
+    "deployed": "http://www.catchbandit.com/",
+    "video": ""
+  },
+  {
+    "name": "Budget Tracker",
+    "thumbnail": "./images/projectThumbnails/Budget.png",
     "decription": "",
     "gitHub": "",
     "deployed": "http://www.catchbandit.com/",
     "video": ""
   },
   {
-    "name": "Band It",
-    "thumbnail": "./images/BandIt.jpg",
+    "name": "Burger Time",
+    "thumbnail": "./images/projectThumbnails/Burger.jpg",
     "decription": "",
     "gitHub": "",
     "deployed": "http://www.catchbandit.com/",
     "video": ""
   },
   {
-    "name": "Band It",
-    "thumbnail": "./images/BandIt.jpg",
+    "name": "Crystal Collector",
+    "thumbnail": "./images/projectThumbnails/Crystal.jpg",
     "decription": "",
     "gitHub": "",
     "deployed": "http://www.catchbandit.com/",
     "video": ""
   },
   {
-    "name": "Band It",
-    "thumbnail": "./images/BandIt.jpg",
+    "name": "Friend Finder",
+    "thumbnail": "./images/projectThumbnails/Friend.png",
     "decription": "",
     "gitHub": "",
     "deployed": "http://www.catchbandit.com/",
     "video": ""
   },
   {
-    "name": "Band It",
-    "thumbnail": "./images/BandIt.jpg",
+    "name": "GIPHY",
+    "thumbnail": "./images/projectThumbnails/giphy.gif",
     "decription": "",
     "gitHub": "",
     "deployed": "http://www.catchbandit.com/",
     "video": ""
   },
   {
-    "name": "Band It",
-    "thumbnail": "./images/BandIt.jpg",
-    "decription": "",
-    "gitHub": "",
-    "deployed": "http://www.catchbandit.com/",
-    "video": ""
-  },
-  {
-    "name": "Band It",
-    "thumbnail": "./images/BandIt.jpg",
+    "name": "Memory Game",
+    "thumbnail": "./images/Hero.jpg",
     "decription": "",
     "gitHub": "",
     "deployed": "http://www.catchbandit.com/",
