@@ -1,1 +1,58 @@
-[{ "Band It": 9 }]
+[
+  {
+    "name": "Band It",
+    "thumbnail": "./images/BandIt.jpg",
+    "decription": "",
+    "gitHub": "",
+    "deployed": "http://www.catchbandit.com/",
+    "video": ""
+  },
+  {
+    "name": "Band It",
+    "thumbnail": "./images/BandIt.jpg",
+    "decription": "",
+    "gitHub": "",
+    "deployed": "http://www.catchbandit.com/",
+    "video": ""
+  },
+  {
+    "name": "Band It",
+    "thumbnail": "./images/BandIt.jpg",
+    "decription": "",
+    "gitHub": "",
+    "deployed": "http://www.catchbandit.com/",
+    "video": ""
+  },
+  {
+    "name": "Band It",
+    "thumbnail": "./images/BandIt.jpg",
+    "decription": "",
+    "gitHub": "",
+    "deployed": "http://www.catchbandit.com/",
+    "video": ""
+  },
+  {
+    "name": "Band It",
+    "thumbnail": "./images/BandIt.jpg",
+    "decription": "",
+    "gitHub": "",
+    "deployed": "http://www.catchbandit.com/",
+    "video": ""
+  },
+  {
+    "name": "Band It",
+    "thumbnail": "./images/BandIt.jpg",
+    "decription": "",
+    "gitHub": "",
+    "deployed": "http://www.catchbandit.com/",
+    "video": ""
+  },
+  {
+    "name": "Band It",
+    "thumbnail": "./images/BandIt.jpg",
+    "decription": "",
+    "gitHub": "",
+    "deployed": "http://www.catchbandit.com/",
+    "video": ""
+  }
+]
