@@ -1,5 +1,10 @@
 import React from "react";
 
-const Img = props => <img src={props.tumbnail} />;
+const Img = props => (
+  <div>
+    {props.name}
+    <img src={require(`${props.thumbnail}`)} />
+  </div>
+);
 
 export default Img;

@@ -16,6 +16,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <AllProjects />
+        {/* <img src={require("./assets/images/Beach.jpg")} alt="Beach" /> */}
       </div>
     );
   }
