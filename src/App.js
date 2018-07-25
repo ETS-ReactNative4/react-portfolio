@@ -5,6 +5,7 @@ import importProjects from "./projects.json";
 import RenderAll from "./components/RenderAll";
 import RenderFeatured from "./components/RenderFeatured";
 import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
 
 class App extends Component {
   state = {
@@ -38,6 +39,7 @@ class App extends Component {
           )}
           {/* render about me/contact */}
         </div>
+        <Footer />
       </div>
     );
   }
