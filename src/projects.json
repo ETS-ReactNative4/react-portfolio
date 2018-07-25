@@ -5,7 +5,8 @@
     "decription": "",
     "gitHub": "https://github.com/marcushilaire/psychic-game",
     "deployed": "https://marcushilaire.github.io/psychic-game/",
-    "video": ""
+    "video": "",
+    "featured": false
   },
   {
     "name": "Crystal Collector",
@@ -31,7 +32,8 @@
     "decription": "",
     "gitHub": "https://github.com/marcushilaire/GIPHY",
     "deployed": "https://marcushilaire.github.io/GIPHY/",
-    "video": ""
+    "video": "",
+    "featured": false
   },
   {
     "name": "LIRI",
@@ -39,7 +41,8 @@
     "decription": "",
     "gitHub": "https://github.com/marcushilaire/LIRI-Node-App",
     "deployed": "",
-    "video": ""
+    "video": "",
+    "featured": false
   },
   {
     "name": "Friend Finder",
@@ -47,7 +50,8 @@
     "decription": "",
     "gitHub": "https://github.com/marcushilaire/Friend-Finder",
     "deployed": "https://mh-friend-finder.herokuapp.com/",
-    "video": ""
+    "video": "",
+    "featured": false
   },
   {
     "name": "Band It",
@@ -64,7 +68,8 @@
     "decription": "",
     "gitHub": "https://github.com/marcushilaire/bamazon",
     "video":
-      "https://drive.google.com/file/d/122aX2d_zKXXszpCEiZXfd5RRYZwmHqtn/view?usp=sharing"
+      "https://drive.google.com/file/d/122aX2d_zKXXszpCEiZXfd5RRYZwmHqtn/view?usp=sharing",
+    "featured": false
   },
   {
     "name": "Burger Time",
@@ -72,7 +77,8 @@
     "decription": "",
     "gitHub": "https://github.com/marcushilaire/Burgers",
     "deployed": "https://protected-thicket-56410.herokuapp.com/",
-    "video": ""
+    "video": "",
+    "featured": false
   },
   {
     "name": "Link Up",
@@ -89,7 +95,8 @@
     "decription": "",
     "gitHub": "https://github.com/marcushilaire/Memory",
     "deployed": "https://marcushilaire.github.io/Memory/",
-    "video": ""
+    "video": "",
+    "featured": false
   },
   {
     "name": "5 O'Clock",
