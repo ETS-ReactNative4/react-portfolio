@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+import logo from "./d20.png";
 import "./App.css";
-import AllProjects from "./pages/AllProjects";
+import importProjects from "./projects.json";
+import RenderArr from "./components/RenderArr";
 
 class App extends Component {
   state = {};
@@ -12,13 +13,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
         <div className="container">
-          <AllProjects />
+          <RenderArr array={importProjects} />
         </div>
-        {/* <img src={require("./assets/images/Beach.jpg")} alt="Beach" /> */}
       </div>
     );
   }

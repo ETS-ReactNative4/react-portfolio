@@ -1,10 +1,10 @@
 import Card from "../../components/Card";
-import importProjects from "../../projects.json";
+// import importProjects from "../../projects.json";
 import React from "react";
 
-const AllProjects = props => (
+const renderArr = props => (
   <div className="row">
-    {importProjects.map((currVal, index) => {
+    {props.array.map((currVal, index) => {
       return (
         <Card
           key={currVal.name}
@@ -17,4 +17,4 @@ const AllProjects = props => (
   </div>
 );
 
-export default AllProjects;
+export default renderArr;
