@@ -1,37 +1,20 @@
-// import Img from "../../components/Img";
+import Card from "../../components/Card";
 import importProjects from "../../projects.json";
-// import imageTest from "../../assets/images/projectThumbnails/Burger.jpg";
-import React, { Component } from "react";
+import React from "react";
 
-class AllProjects extends Component {
-  state = {
-    // projects=[]
-  };
-  intitializeState = () => {
-    // importProjects.
-  };
-  componentDidMount() {
-    // this.intitializeState();
-    console.log(importProjects);
-  }
-  render() {
-    return (
-      <div>
-        <p>hello</p>
-        {importProjects.map((currVal, index) => {
-          return (
-            <img
-              key={currVal.name}
-              src={currVal.thumbnail}
-              name={currVal.name}
-            />
-          );
-          // return <p>{currVal.name}</p>;
-        })}
-        {}
-      </div>
-    );
-  }
-}
+const AllProjects = props => (
+  <div className="row">
+    {importProjects.map((currVal, index) => {
+      return (
+        <Card
+          key={currVal.name}
+          thumbnail={currVal.thumbnail}
+          name={currVal.name}
+        />
+      );
+    })}
+    {}
+  </div>
+);
 
 export default AllProjects;
