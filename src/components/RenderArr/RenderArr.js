@@ -7,7 +7,7 @@ const renderArr = props => (
       return (
         <Card
           key={currVal.name}
-          thumbnail="/assets/images/projectThumbnails/BandIt.jpg"
+          thumbnail={currVal.thumbnail}
           name={currVal.name}
         />
       );
