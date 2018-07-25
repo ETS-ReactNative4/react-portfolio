@@ -7,7 +7,7 @@ import RenderFeatured from "./components/RenderFeatured";
 
 class App extends Component {
   state = {
-    focus: "all"
+    focus: "featured"
   };
   render() {
     return (

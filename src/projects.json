@@ -14,7 +14,7 @@
     "gitHub": "https://github.com/marcushilaire/Crystal-Collector",
     "deployed": "https://marcushilaire.github.io/Crystal-Collector/",
     "video": "",
-    "featured": "true"
+    "featured": true
   },
   {
     "name": "Budget Tracker",
@@ -23,7 +23,7 @@
     "gitHub": "https://github.com/marcushilaire/group-project1",
     "deployed": "https://marcushilaire.github.io/group-project1/",
     "video": "",
-    "featured": "true"
+    "featured": true
   },
   {
     "name": "GIPHY",
@@ -56,7 +56,7 @@
     "gitHub": "https://github.com/marcushilaire/band-it",
     "deployed": "http://www.catchbandit.com/",
     "video": "",
-    "featured": "true"
+    "featured": true
   },
   {
     "name": "Bamazon",
@@ -81,7 +81,7 @@
     "gitHub": "https://github.com/marcushilaire/linkup",
     "deployed": "http://www.addlinkup.com/",
     "video": "",
-    "featured": "true"
+    "featured": true
   },
   {
     "name": "Memory Game",
@@ -98,6 +98,6 @@
     "gitHub": "https://github.com/marcushilaire/linkup",
     "deployed": "http://www.addlinkup.com/",
     "video": "",
-    "featured": "true"
+    "featured": true
   }
 ]

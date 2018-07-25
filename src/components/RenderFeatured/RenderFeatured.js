@@ -16,7 +16,7 @@ const renderFetured = props => (
           </div>
         );
       }
-      return {};
+      return;
     })}
   </div>
 );
