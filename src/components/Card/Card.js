@@ -1,10 +1,12 @@
 import React from "react";
 
 const Card = props => (
-  <div className="card col-xs-12 col-sm-6 col-md-4 projectThumbnail">
+  <div className="card projectThumbnail">
     <img className=" img-fluid" src={props.thumbnail} alt={props.name} />
     <div className="card-body">
-      <p className="card-text">{props.name}</p>
+      <h1 className="card-text">{props.name}</h1>
+      <a href={props.gitHub}>GitHub</a>{" "}
+      {props.deployed ? <a href={props.deployed}>Deployed</a> : <p />}
     </div>
   </div>
 );

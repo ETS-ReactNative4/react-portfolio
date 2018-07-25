@@ -1,5 +1,54 @@
 [
   {
+    "name": "Psychic Game",
+    "thumbnail": "/assets/images/projectThumbnails/Psychic.png",
+    "decription": "",
+    "gitHub": "https://github.com/marcushilaire/psychic-game",
+    "deployed": "https://marcushilaire.github.io/psychic-game/",
+    "video": ""
+  },
+  {
+    "name": "Crystal Collector",
+    "thumbnail": "/assets/images/projectThumbnails/Crystal.jpg",
+    "decription": "",
+    "gitHub": "https://github.com/marcushilaire/Crystal-Collector",
+    "deployed": "https://marcushilaire.github.io/Crystal-Collector/",
+    "video": "",
+    "featured": "true"
+  },
+  {
+    "name": "Budget Tracker",
+    "thumbnail": "/assets/images/projectThumbnails/Budget.png",
+    "decription": "",
+    "gitHub": "https://github.com/marcushilaire/group-project1",
+    "deployed": "https://marcushilaire.github.io/group-project1/",
+    "video": ""
+  },
+  {
+    "name": "GIPHY",
+    "thumbnail": "/assets/images/projectThumbnails/giphy.gif",
+    "decription": "",
+    "gitHub": "https://github.com/marcushilaire/GIPHY",
+    "deployed": "https://marcushilaire.github.io/GIPHY/",
+    "video": ""
+  },
+  {
+    "name": "LIRI",
+    "thumbnail": "/assets/images/projectThumbnails/Node.png",
+    "decription": "",
+    "gitHub": "https://github.com/marcushilaire/LIRI-Node-App",
+    "deployed": "",
+    "video": ""
+  },
+  {
+    "name": "Friend Finder",
+    "thumbnail": "/assets/images/projectThumbnails/Friend.png",
+    "decription": "",
+    "gitHub": "https://github.com/marcushilaire/Friend-Finder",
+    "deployed": "https://mh-friend-finder.herokuapp.com/",
+    "video": ""
+  },
+  {
     "name": "Band It",
     "thumbnail": "/assets/images/projectThumbnails/BandIt.jpg",
     "decription": "",
@@ -7,52 +56,22 @@
     "deployed": "http://www.catchbandit.com/",
     "video": ""
   },
-  {
-    "name": "Budget Tracker",
-    "thumbnail": "/assets/images/projectThumbnails/Budget.png",
-    "decription": "",
-    "gitHub": "",
-    "deployed": "http://www.catchbandit.com/",
-    "video": ""
-  },
+
   {
     "name": "Burger Time",
     "thumbnail": "/assets/images/projectThumbnails/Burger.jpg",
     "decription": "",
-    "gitHub": "",
-    "deployed": "http://www.catchbandit.com/",
+    "gitHub": "https://github.com/marcushilaire/Burgers",
+    "deployed": "https://protected-thicket-56410.herokuapp.com/",
     "video": ""
   },
-  {
-    "name": "Crystal Collector",
-    "thumbnail": "/assets/images/projectThumbnails/Crystal.jpg",
-    "decription": "",
-    "gitHub": "",
-    "deployed": "http://www.catchbandit.com/",
-    "video": ""
-  },
-  {
-    "name": "Friend Finder",
-    "thumbnail": "/assets/images/projectThumbnails/Friend.png",
-    "decription": "",
-    "gitHub": "",
-    "deployed": "http://www.catchbandit.com/",
-    "video": ""
-  },
-  {
-    "name": "GIPHY",
-    "thumbnail": "/assets/images/projectThumbnails/giphy.gif",
-    "decription": "",
-    "gitHub": "",
-    "deployed": "http://www.catchbandit.com/",
-    "video": ""
-  },
+
   {
     "name": "Memory Game",
     "thumbnail": "/assets/images/projectThumbnails/Hero.jpg",
     "decription": "",
-    "gitHub": "",
-    "deployed": "http://www.catchbandit.com/",
+    "gitHub": "https://github.com/marcushilaire/Memory",
+    "deployed": "https://marcushilaire.github.io/Memory/",
     "video": ""
   }
 ]
