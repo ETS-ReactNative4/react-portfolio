@@ -20,12 +20,12 @@ class App extends Component {
           {this.state.focus === "featured" ? (
             <RenderFeatured array={importProjects} />
           ) : (
-            <p />
+            ""
           )}
           {this.state.focus === "all" ? (
             <RenderAll array={importProjects} />
           ) : (
-            <p />
+            ""
           )}
         </div>
       </div>

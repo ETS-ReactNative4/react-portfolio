@@ -11,10 +11,12 @@ const renderFetured = props => (
               gitHub={currVal.gitHub}
               thumbnail={currVal.thumbnail}
               name={currVal.name}
+              video={currVal.video}
             />
           </div>
         );
       }
+      return {};
     })}
   </div>
 );

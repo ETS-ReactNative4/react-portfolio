@@ -58,7 +58,14 @@
     "video": "",
     "featured": "true"
   },
-
+  {
+    "name": "Bamazon",
+    "thumbnail": "/assets/images/projectThumbnails/Node.png",
+    "decription": "",
+    "gitHub": "https://github.com/marcushilaire/bamazon",
+    "video":
+      "https://drive.google.com/file/d/122aX2d_zKXXszpCEiZXfd5RRYZwmHqtn/view?usp=sharing"
+  },
   {
     "name": "Burger Time",
     "thumbnail": "/assets/images/projectThumbnails/Burger.jpg",
@@ -67,7 +74,15 @@
     "deployed": "https://protected-thicket-56410.herokuapp.com/",
     "video": ""
   },
-
+  {
+    "name": "Link Up",
+    "thumbnail": "/assets/images/projectThumbnails/LinkUp.png",
+    "decription": "",
+    "gitHub": "https://github.com/marcushilaire/linkup",
+    "deployed": "http://www.addlinkup.com/",
+    "video": "",
+    "featured": "true"
+  },
   {
     "name": "Memory Game",
     "thumbnail": "/assets/images/projectThumbnails/Hero.jpg",
@@ -75,5 +90,14 @@
     "gitHub": "https://github.com/marcushilaire/Memory",
     "deployed": "https://marcushilaire.github.io/Memory/",
     "video": ""
+  },
+  {
+    "name": "5 O'Clock",
+    "thumbnail": "/assets/images/projectThumbnails/5oClock.jpg",
+    "decription": "",
+    "gitHub": "https://github.com/marcushilaire/linkup",
+    "deployed": "http://www.addlinkup.com/",
+    "video": "",
+    "featured": "true"
   }
 ]

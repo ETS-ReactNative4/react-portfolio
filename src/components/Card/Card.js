@@ -6,7 +6,8 @@ const Card = props => (
     <div className="card-body">
       <h1 className="card-text">{props.name}</h1>
       <a href={props.gitHub}>GitHub</a>{" "}
-      {props.deployed ? <a href={props.deployed}>Deployed</a> : <p />}
+      {props.deployed ? <a href={props.deployed}>Deployed</a> : ""}
+      {props.video ? <a href={props.video}>Video</a> : <p />}
     </div>
   </div>
 );
