@@ -3,6 +3,7 @@ import logo from "./d20.png";
 import "./App.css";
 import importProjects from "./projects.json";
 import RenderAll from "./components/RenderAll";
+import RenderFeatured from "./components/RenderFeatured";
 
 class App extends Component {
   state = {
@@ -16,12 +17,16 @@ class App extends Component {
           <h1 className="App-title">How do you want to do this?</h1>
         </header>
         <div className="container">
+          {this.state.focus === "featured" ? (
+            <RenderFeatured array={importProjects} />
+          ) : (
+            <p />
+          )}
           {this.state.focus === "all" ? (
             <RenderAll array={importProjects} />
           ) : (
             <p />
           )}
-          {/* <RenderAll array={importProjects} /> */}
         </div>
       </div>
     );

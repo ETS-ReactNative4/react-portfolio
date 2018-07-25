@@ -22,7 +22,8 @@
     "decription": "",
     "gitHub": "https://github.com/marcushilaire/group-project1",
     "deployed": "https://marcushilaire.github.io/group-project1/",
-    "video": ""
+    "video": "",
+    "featured": "true"
   },
   {
     "name": "GIPHY",
@@ -54,7 +55,8 @@
     "decription": "",
     "gitHub": "https://github.com/marcushilaire/band-it",
     "deployed": "http://www.catchbandit.com/",
-    "video": ""
+    "video": "",
+    "featured": "true"
   },
 
   {
