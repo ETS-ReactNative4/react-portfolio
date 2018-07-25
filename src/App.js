@@ -14,6 +14,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <div className="container">
+          {console.log(importProjects)}
           <RenderArr array={importProjects} />
         </div>
       </div>

@@ -1,5 +1,4 @@
 import Card from "../../components/Card";
-// import importProjects from "../../projects.json";
 import React from "react";
 
 const renderArr = props => (
@@ -8,7 +7,7 @@ const renderArr = props => (
       return (
         <Card
           key={currVal.name}
-          thumbnail={currVal.thumbnail}
+          thumbnail="/assets/images/projectThumbnails/BandIt.jpg"
           name={currVal.name}
         />
       );
