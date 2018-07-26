@@ -35,12 +35,14 @@ body {
 .focus {
   color: black;
 }
-
-.singleImage {
-  float: left;
-  max-width: 45%;
-  margin: 5px;
+@media (min-width: 415px) {
+  .singleImage {
+    float: left;
+    max-width: 30%;
+    margin: 5px;
+  }
 }
+
 .singleTextBox {
   background-color: #222;
   color: white;
