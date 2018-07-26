@@ -19,7 +19,8 @@ class App extends Component {
   callAPI = gitHubCode => {
     // takes in a github project, in the form "user/project"
     API.gitCommits(gitHubCode).then(res => {
-      this.setState({ apiResult: res.data });
+      // console.log(res.data);
+      this.setState({ apiResult: res.data.slice(0, 5) });
     });
   }; // sets the state equal to the results
 
@@ -39,9 +40,9 @@ class App extends Component {
 
   componentDidMount = () => {};
 
-  serveComponent = props => {
-    return <RenderSingle elements={props} callAPI={this.callAPI} />;
-  }; // used to render a single element when one is the focus
+  // serveComponent = props => {
+  //   return <RenderSingle elements={props} callAPI={this.callAPI} />;
+  // }; // used to render a single element when one is the focus
 
   render() {
     return (
@@ -75,9 +76,16 @@ class App extends Component {
           )}
           {/* render about me/contact */}
           {/* render single project */}
-          {typeof this.state.focus === "object"
-            ? this.serveComponent(this.state.focus)
-            : ""}
+          {typeof this.state.focus === "object" ? (
+            // this.serveComponent(this.state.focus)
+            <RenderSingle
+              elements={this.state.focus}
+              callAPI={this.callAPI}
+              results={this.state.apiResult}
+            />
+          ) : (
+            ""
+          )}
         </div>
         <Footer />
       </div>

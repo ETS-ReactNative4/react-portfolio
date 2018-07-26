@@ -35,18 +35,34 @@ body {
 .focus {
   color: black;
 }
+.singleImage {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
 @media (min-width: 415px) {
   .singleImage {
     float: left;
     max-width: 30%;
-    margin: 5px;
   }
+}
+.resultsHeader {
+  font-size: 20px;
+  color: gray;
+}
+.apiResults {
+  /* color: blue; */
+  text-align: left;
+}
+.singleLink {
+  font-size: 30px;
+  color: gray;
 }
 
 .singleTextBox {
   background-color: #222;
   color: white;
   margin-bottom: 30px;
+  padding: 5px;
   /* width: 100%; */
 }
 

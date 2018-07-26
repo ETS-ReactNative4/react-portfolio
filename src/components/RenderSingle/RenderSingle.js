@@ -5,28 +5,51 @@ class RenderSingle extends Component {
       this.props.elements.gitHub.replace("https://github.com/", "")
     );
   };
+
   render() {
     return (
       <div className="card singleTextBox">
-        {/* {props.callAPI(props.elements.gitHub.replace("https://github.com/", ""))} */}
         <div>
           <img
             className="img-fluid singleImage"
             src={this.props.elements.thumbnail}
             alt={this.props.elements.name}
           />
-          <a href={this.props.elements.gitHub}>GitHub</a>{" "}
+          <a className="singleLink" href={this.props.elements.gitHub}>
+            GitHub
+          </a>{" "}
+          {/* conditional for the deployed link */}
           {this.props.elements.deployed ? (
-            <a href={this.props.elements.deployed}>Deployed</a>
+            <a className="singleLink" href={this.props.elements.deployed}>
+              Deployed
+            </a>
           ) : (
             ""
           )}
+          {/* conditional for the video link */}
           {this.props.elements.video ? (
-            <a href={this.props.elements.video}>Video</a>
+            <a className="singleLink" href={this.props.elements.video}>
+              Video
+            </a>
           ) : (
             <p />
           )}
+          {/* the description */}
           <p>{this.props.elements.description}</p>
+          {/* the api results */}
+          <div className="apiResults">
+            <p className="resultsHeader">Five most recent commits </p>
+            {this.props.results.map(currVal => {
+              return (
+                <div key={currVal.commit.committer.date}>
+                  <p>
+                    {currVal.commit.committer.date.split("T")[0]}:{" "}
+                    {currVal.commit.message}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     );
