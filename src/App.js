@@ -6,11 +6,17 @@ import RenderAll from "./components/RenderAll";
 import RenderFeatured from "./components/RenderFeatured";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
+import API from "./utils/API";
 
 class App extends Component {
   state = {
     focus: "all",
     sort: "default"
+  };
+  callAPI = gitHubCode => {
+    API.gitCommits(gitHubCode).then(res => {
+      console.log(res.data);
+    });
   };
   changeFocus = newFocus => {
     this.setState({ focus: newFocus });
@@ -21,6 +27,9 @@ class App extends Component {
       dump.push(array[i]);
     }
     return dump;
+  };
+  componentDidMount = () => {
+    // this.callAPI();
   };
 
   render() {
@@ -37,14 +46,14 @@ class App extends Component {
           {this.state.focus === "featured" ? (
             <RenderFeatured
               array={this.reverseArr(importProjects)}
-              sort={this.state.sort}
+              callAPI={this.callAPI}
             />
           ) : (
             ""
           )}
           {/* render all projects */}
           {this.state.focus === "all" ? (
-            <RenderAll array={importProjects} sort={this.state.sort} />
+            <RenderAll array={importProjects} callAPI={this.callAPI} />
           ) : (
             ""
           )}
