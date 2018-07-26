@@ -12,6 +12,7 @@ const renderFetured = props => (
               thumbnail={currVal.thumbnail}
               name={currVal.name}
               video={currVal.video}
+              changeFocus={props.changeFocus}
             />
           </div>
         );

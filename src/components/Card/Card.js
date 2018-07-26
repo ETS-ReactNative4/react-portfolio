@@ -7,8 +7,7 @@ const Card = props => (
       src={props.thumbnail}
       alt={props.name}
       onClick={() => {
-        props.callAPI(props.gitHub.replace("https://github.com/", ""));
-        // console.log(props);
+        props.changeFocus(props);
       }}
     />
     <div className="card-body">

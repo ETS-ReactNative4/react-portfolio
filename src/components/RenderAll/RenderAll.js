@@ -13,7 +13,7 @@ const renderAll = props => (
             thumbnail={currVal.thumbnail}
             name={currVal.name}
             video={currVal.video}
-            callAPI={props.callAPI}
+            changeFocus={props.changeFocus}
           />
         </div>
       );
