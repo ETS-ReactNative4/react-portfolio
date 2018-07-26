@@ -38,15 +38,13 @@ class RenderSingle extends Component {
           <p>{this.props.elements.description}</p>
           {/* the api results */}
           <div className="apiResults">
-            <p className="resultsHeader">Five most recent commits </p>
+            <p className="resultsHeader">Five most recent commits: </p>
             {this.props.results.map(currVal => {
               return (
-                <div key={currVal.commit.committer.date}>
-                  <p>
-                    {currVal.commit.committer.date.split("T")[0]}:{" "}
-                    {currVal.commit.message}
-                  </p>
-                </div>
+                <p key={currVal.commit.committer.date}>
+                  {currVal.commit.committer.date.split("T")[0]}:{" "}
+                  {currVal.commit.message}
+                </p>
               );
             })}
           </div>
