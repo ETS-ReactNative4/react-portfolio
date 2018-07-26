@@ -12,32 +12,36 @@ import RenderSingle from "./components/RenderSingle";
 class App extends Component {
   state = {
     focus: "all",
-    sort: "default"
+    sort: "default",
+    apiResult: []
   };
 
   callAPI = gitHubCode => {
+    // takes in a github project, in the form "user/project"
     API.gitCommits(gitHubCode).then(res => {
-      console.log(res.data);
+      this.setState({ apiResult: res.data });
     });
-  };
+  }; // sets the state equal to the results
 
   changeFocus = newFocus => {
+    // tkaes in a string
     this.setState({ focus: newFocus });
-  };
+  }; // changes the state to render a different component
 
   reverseArr = array => {
+    // takes in an array as an argument
     let dump = [];
     for (let i = array.length - 1; i >= 0; i--) {
       dump.push(array[i]);
     }
     return dump;
-  };
+  }; // returns the reverse, without affecting the original array
 
   componentDidMount = () => {};
 
   serveComponent = props => {
-    return <RenderSingle elements={props} />;
-  };
+    return <RenderSingle elements={props} callAPI={this.callAPI} />;
+  }; // used to render a single element when one is the focus
 
   render() {
     return (

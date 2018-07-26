@@ -2,7 +2,8 @@
   {
     "name": "Psychic Game",
     "thumbnail": "/assets/images/projectThumbnails/Psychic.png",
-    "decription": "",
+    "description":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "gitHub": "https://github.com/marcushilaire/psychic-game",
     "deployed": "https://marcushilaire.github.io/psychic-game/",
     "video": "",
@@ -11,7 +12,7 @@
   {
     "name": "Crystal Collector",
     "thumbnail": "/assets/images/projectThumbnails/Crystal.jpg",
-    "decription": "",
+    "description": "",
     "gitHub": "https://github.com/marcushilaire/Crystal-Collector",
     "deployed": "https://marcushilaire.github.io/Crystal-Collector/",
     "video": "",
@@ -20,7 +21,7 @@
   {
     "name": "Budget Tracker",
     "thumbnail": "/assets/images/projectThumbnails/Budget.png",
-    "decription": "",
+    "description": "",
     "gitHub": "https://github.com/marcushilaire/group-project1",
     "deployed": "https://marcushilaire.github.io/group-project1/",
     "video": "",
@@ -29,7 +30,7 @@
   {
     "name": "GIPHY",
     "thumbnail": "/assets/images/projectThumbnails/giphy.gif",
-    "decription": "",
+    "description": "",
     "gitHub": "https://github.com/marcushilaire/GIPHY",
     "deployed": "https://marcushilaire.github.io/GIPHY/",
     "video": "",
@@ -38,7 +39,7 @@
   {
     "name": "LIRI",
     "thumbnail": "/assets/images/projectThumbnails/Node.png",
-    "decription": "",
+    "description": "",
     "gitHub": "https://github.com/marcushilaire/LIRI-Node-App",
     "deployed": "",
     "video": "",
@@ -47,7 +48,7 @@
   {
     "name": "Friend Finder",
     "thumbnail": "/assets/images/projectThumbnails/Friend.png",
-    "decription": "",
+    "description": "",
     "gitHub": "https://github.com/marcushilaire/Friend-Finder",
     "deployed": "https://mh-friend-finder.herokuapp.com/",
     "video": "",
@@ -56,7 +57,7 @@
   {
     "name": "Band It",
     "thumbnail": "/assets/images/projectThumbnails/BandIt.jpg",
-    "decription": "",
+    "description": "",
     "gitHub": "https://github.com/marcushilaire/band-it",
     "deployed": "http://www.catchbandit.com/",
     "video": "",
@@ -65,7 +66,7 @@
   {
     "name": "Bamazon",
     "thumbnail": "/assets/images/projectThumbnails/Node.png",
-    "decription": "",
+    "description": "",
     "gitHub": "https://github.com/marcushilaire/bamazon",
     "video":
       "https://drive.google.com/file/d/122aX2d_zKXXszpCEiZXfd5RRYZwmHqtn/view?usp=sharing",
@@ -74,7 +75,7 @@
   {
     "name": "Burger Time",
     "thumbnail": "/assets/images/projectThumbnails/Burger.jpg",
-    "decription": "",
+    "description": "",
     "gitHub": "https://github.com/marcushilaire/Burgers",
     "deployed": "https://protected-thicket-56410.herokuapp.com/",
     "video": "",
@@ -83,7 +84,7 @@
   {
     "name": "Link Up",
     "thumbnail": "/assets/images/projectThumbnails/LinkUp.png",
-    "decription": "",
+    "description": "",
     "gitHub": "https://github.com/marcushilaire/linkup",
     "deployed": "http://www.addlinkup.com/",
     "video": "",
@@ -92,7 +93,7 @@
   {
     "name": "Memory Game",
     "thumbnail": "/assets/images/projectThumbnails/Hero.jpg",
-    "decription": "",
+    "description": "",
     "gitHub": "https://github.com/marcushilaire/Memory",
     "deployed": "https://marcushilaire.github.io/Memory/",
     "video": "",
@@ -101,7 +102,7 @@
   {
     "name": "5 O'Clock",
     "thumbnail": "/assets/images/projectThumbnails/5oClock.jpg",
-    "decription": "",
+    "description": "",
     "gitHub": "https://github.com/marcushilaire/linkup",
     "deployed": "http://www.addlinkup.com/",
     "video": "",
@@ -110,7 +111,7 @@
   {
     "name": "Lifelong Learning",
     "thumbnail": "/assets/images/projectThumbnails/Node.png",
-    "decription": "",
+    "description": "",
     "gitHub": "https://github.com/marcushilaire/Learning",
     "deployed": "",
     "video": "",
@@ -119,7 +120,7 @@
   {
     "name": "Hide API Keys (Tutorial)",
     "thumbnail": "/assets/images/projectThumbnails/Node.png",
-    "decription": "",
+    "description": "",
     "gitHub": "https://github.com/marcushilaire/hidekeys",
     "deployed": "https://hide-api-keys.herokuapp.com/",
     "video": "",

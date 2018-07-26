@@ -9,7 +9,6 @@
 
 .App-header {
   background-color: #222;
-  /* height: 150px; */
   min-height: 30%;
   padding: 20px;
   color: white;
@@ -32,8 +31,21 @@ body {
   padding: 0px;
   margin-bottom: 15px;
 }
+
 .focus {
   color: black;
+}
+
+.singleImage {
+  float: left;
+  max-width: 45%;
+  margin: 5px;
+}
+.singleTextBox {
+  background-color: #222;
+  color: white;
+  margin-bottom: 30px;
+  /* width: 100%; */
 }
 
 #footertext {
