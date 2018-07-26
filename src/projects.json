@@ -106,5 +106,23 @@
     "deployed": "http://www.addlinkup.com/",
     "video": "",
     "featured": true
+  },
+  {
+    "name": "Lifelong Learning",
+    "thumbnail": "/assets/images/projectThumbnails/Node.png",
+    "decription": "",
+    "gitHub": "https://github.com/marcushilaire/Learning",
+    "deployed": "",
+    "video": "",
+    "featured": true
+  },
+  {
+    "name": "Hide API Keys (Tutorial)",
+    "thumbnail": "/assets/images/projectThumbnails/Node.png",
+    "decription": "",
+    "gitHub": "https://github.com/marcushilaire/hidekeys",
+    "deployed": "https://hide-api-keys.herokuapp.com/",
+    "video": "",
+    "featured": true
   }
 ]

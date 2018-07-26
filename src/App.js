@@ -15,6 +15,14 @@ class App extends Component {
   changeFocus = newFocus => {
     this.setState({ focus: newFocus });
   };
+  reverseArr = array => {
+    let dump = [];
+    for (let i = array.length - 1; i >= 0; i--) {
+      dump.push(array[i]);
+    }
+    return dump;
+  };
+
   render() {
     return (
       <div className="App">
@@ -27,7 +35,10 @@ class App extends Component {
         <div className="container">
           {/* render only featured projects */}
           {this.state.focus === "featured" ? (
-            <RenderFeatured array={importProjects} sort={this.state.sort} />
+            <RenderFeatured
+              array={this.reverseArr(importProjects)}
+              sort={this.state.sort}
+            />
           ) : (
             ""
           )}
