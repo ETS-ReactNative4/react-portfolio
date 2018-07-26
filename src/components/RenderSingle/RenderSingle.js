@@ -15,25 +15,24 @@ class RenderSingle extends Component {
             src={this.props.elements.thumbnail}
             alt={this.props.elements.name}
           />
-          <a className="singleLink" href={this.props.elements.gitHub}>
-            GitHub
-          </a>{" "}
-          {/* conditional for the deployed link */}
-          {this.props.elements.deployed ? (
-            <a className="singleLink" href={this.props.elements.deployed}>
-              Deployed
-            </a>
-          ) : (
-            ""
-          )}
-          {/* conditional for the video link */}
-          {this.props.elements.video ? (
-            <a className="singleLink" href={this.props.elements.video}>
-              Video
-            </a>
-          ) : (
-            <p />
-          )}
+          <div className="singleLink">
+            <a href={this.props.elements.gitHub}>GitHub</a>{" "}
+            {this.props.elements.deployed || this.props.elements.video
+              ? " | "
+              : ""}
+            {/* conditional for the deployed link */}
+            {this.props.elements.deployed ? (
+              <a href={this.props.elements.deployed}>Deployed</a>
+            ) : (
+              ""
+            )}
+            {/* conditional for the video link */}
+            {this.props.elements.video ? (
+              <a href={this.props.elements.video}>Video</a>
+            ) : (
+              <p />
+            )}
+          </div>
           {/* the description */}
           <p>{this.props.elements.description}</p>
           {/* the api results */}

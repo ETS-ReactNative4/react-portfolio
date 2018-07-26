@@ -35,6 +35,11 @@ body {
 .focus {
   color: black;
 }
+.navPill:hover {
+  background-color: black;
+  /* margin: 5px;/ */
+  width: 30%;
+}
 .singleImage {
   margin-bottom: 5px;
   margin-right: 5px;
@@ -50,12 +55,11 @@ body {
   color: gray;
 }
 .apiResults {
-  /* color: blue; */
   text-align: left;
 }
 .singleLink {
   font-size: 30px;
-  color: gray;
+  /* color: gray; */
 }
 
 .singleTextBox {

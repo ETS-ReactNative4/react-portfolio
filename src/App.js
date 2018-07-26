@@ -40,10 +40,6 @@ class App extends Component {
 
   componentDidMount = () => {};
 
-  // serveComponent = props => {
-  //   return <RenderSingle elements={props} callAPI={this.callAPI} />;
-  // }; // used to render a single element when one is the focus
-
   render() {
     return (
       <div className="App">
@@ -53,7 +49,7 @@ class App extends Component {
           <br />
           <NavBar focus={this.state.focus} changeFocus={this.changeFocus} />
           {typeof this.state.focus === "object" ? (
-            <h3 className="navPill focus">{this.state.focus.name}</h3>
+            <h3 className="focus">{this.state.focus.name}</h3>
           ) : (
             ""
           )}

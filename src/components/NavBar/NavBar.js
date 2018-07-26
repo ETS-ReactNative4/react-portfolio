@@ -3,21 +3,17 @@ const NavBar = props => (
   <div className="container">
     <div className="row">
       {props.focus === "featured" ? (
-        <h3 className="col-xs-12 col-sm-6 col-md-4 navPill focus">
-          Featured Projects
-        </h3>
+        <h3 className="col-xs-12 col-sm-6 col-md-4 focus">Featured Projects</h3>
       ) : (
         <h3
           onClick={() => props.changeFocus("featured")}
-          className="col-xs-12 col-sm-6 col-md-4 navPill"
+          className="col-xs-12 col-sm-6 col-md-4 navPill "
         >
           Featured Projects
         </h3>
       )}
       {props.focus === "all" ? (
-        <h3 className="col-xs-12 col-sm-6 col-md-4 navPill focus">
-          All Projects
-        </h3>
+        <h3 className="col-xs-12 col-sm-6 col-md-4 focus">All Projects</h3>
       ) : (
         <h3
           onClick={() => props.changeFocus("all")}
@@ -27,7 +23,7 @@ const NavBar = props => (
         </h3>
       )}{" "}
       {props.focus === "about" ? (
-        <h3 className="col-xs-12 col-sm-6 col-md-4 navPill focus">About Me</h3>
+        <h3 className="col-xs-12 col-sm-6 col-md-4 focus">About Me</h3>
       ) : (
         <h3
           onClick={() => props.changeFocus("about")}
