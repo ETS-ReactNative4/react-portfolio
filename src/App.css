@@ -45,7 +45,7 @@ body {
 }
 .focusedProject {
   text-align: center;
-  color: #0d3b66;
+  color: black;
 }
 @media (max-width: 145px) {
   .focus {
