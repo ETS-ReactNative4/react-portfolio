@@ -23,7 +23,7 @@
   font-size: large;
 }
 body {
-  background-color: #000000;
+  background-image: url("/assets/images/connectwork.png");
 }
 .memeContent {
   float: left;
