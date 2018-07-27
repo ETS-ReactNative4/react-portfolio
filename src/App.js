@@ -49,7 +49,7 @@ class App extends Component {
           <br />
           <NavBar focus={this.state.focus} changeFocus={this.changeFocus} />
           {typeof this.state.focus === "object" ? (
-            <h3 className="focus">{this.state.focus.name}</h3>
+            <h3 className="focusedProject">{this.state.focus.name}</h3>
           ) : (
             ""
           )}

@@ -31,13 +31,25 @@ body {
   padding: 0px;
   margin-bottom: 15px;
 }
-
 .focus {
+  text-align: center;
   color: black;
+  background-color: white;
+}
+.focusedProject {
+  text-align: center;
+  color: black;
+}
+@media (max-width: 145px) {
+  .focus {
+    max-width: 30%;
+  }
+}
+.navPill {
+  text-align: center;
 }
 .navPill:hover {
   background-color: black;
-  /* margin: 5px;/ */
   width: 30%;
 }
 .singleImage {
@@ -59,7 +71,7 @@ body {
 }
 .singleLink {
   font-size: 30px;
-  /* color: gray; */
+  text-align: center;
 }
 
 .singleTextBox {
