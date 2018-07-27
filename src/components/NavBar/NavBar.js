@@ -13,7 +13,7 @@ const NavBar = props => (
         </h3>
       )}
       {props.focus === "all" ? (
-        <h3 className="col-xs-12 col-sm-6 col-md-4 focus">All Projects</h3>
+        <h3 className="col-xs-12 col-md-4 focus">All Projects</h3>
       ) : (
         <h3
           onClick={() => props.changeFocus("all")}

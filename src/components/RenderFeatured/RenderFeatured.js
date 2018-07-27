@@ -14,6 +14,7 @@ const renderFetured = props => (
               video={currVal.video}
               description={currVal.description}
               changeFocus={props.changeFocus}
+              technologies={currVal.technologies}
             />
           </div>
         );
