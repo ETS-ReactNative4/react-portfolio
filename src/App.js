@@ -54,6 +54,12 @@ class App extends Component {
             ""
           )}
         </header>
+        {/* <div className="memeContent">
+          <img
+            className="memeImage img-fluid"
+            src="./assets/images/mercySpray.png"
+          />
+        </div> */}
         <div className="container">
           {/* render only featured projects */}
           {this.state.focus === "featured" ? (
