@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Psychic Game",
+    "thumbnail": "/assets/images/projectThumbnails/Psychic.png",
+    "description": "",
+    "technologies": "Built with vanilla javascript and bootstrap",
+    "gitHub": "https://github.com/marcushilaire/psychic-game",
+    "deployed": "https://marcushilaire.github.io/psychic-game/",
+    "video": "",
+    "featured": false
+  },
+  {
+    "name": "Crystal Collector",
+    "thumbnail": "/assets/images/projectThumbnails/Crystal.jpg",
+    "description": "",
+    "technologies": "Built with jquery and bootstrap.",
+    "gitHub": "https://github.com/marcushilaire/Crystal-Collector",
+    "deployed": "https://marcushilaire.github.io/Crystal-Collector/",
+    "video": "",
+    "featured": true
+  },
+  {
+    "name": "Budget Tracker",
+    "thumbnail": "/assets/images/projectThumbnails/Budget.png",
+    "description": "",
+    "technologies": "Built with jquery, bulma and charts.js.",
+    "gitHub": "https://github.com/marcushilaire/group-project1",
+    "deployed": "https://marcushilaire.github.io/group-project1/",
+    "video": "",
+    "featured": true
+  },
+  {
+    "name": "GIPHY",
+    "thumbnail": "/assets/images/projectThumbnails/giphy.gif",
+    "description": "",
+    "technologies": "Built with jquery and bootstrap. Uses giphy API.",
+    "gitHub": "https://github.com/marcushilaire/GIPHY",
+    "deployed": "https://marcushilaire.github.io/GIPHY/",
+    "video": "",
+    "featured": false
+  },
+  {
+    "name": "LIRI",
+    "thumbnail": "/assets/images/projectThumbnails/Node.png",
+    "description": "",
+    "technologies":
+      "A node app built with .env. Uses Spotify, Twitter and OMDB API.",
+    "gitHub": "https://github.com/marcushilaire/LIRI-Node-App",
+    "deployed": "",
+    "video": "",
+    "featured": false
+  },
+  {
+    "name": "Friend Finder",
+    "thumbnail": "/assets/images/projectThumbnails/Friend.png",
+    "description": "",
+    "technologies": "Built with jquery, bootstrap and express.",
+    "gitHub": "https://github.com/marcushilaire/Friend-Finder",
+    "deployed": "https://mh-friend-finder.herokuapp.com/",
+    "video": "",
+    "featured": false
+  },
+  {
+    "name": "Band It",
+    "thumbnail": "/assets/images/projectThumbnails/BandIt.jpg",
+    "description": "",
+    "technologies":
+      "Built with jquery, bootstrap and express. Uses Spotify, BandsInTown and Yelp API",
+    "gitHub": "https://github.com/marcushilaire/band-it",
+    "deployed": "http://www.catchbandit.com/",
+    "video": "",
+    "featured": true
+  },
+  {
+    "name": "Bamazon",
+    "thumbnail": "/assets/images/projectThumbnails/Node.png",
+    "description": "",
+    "technologies": "A node app that interfaces with a mysql database",
+    "gitHub": "https://github.com/marcushilaire/bamazon",
+    "video":
+      "https://drive.google.com/file/d/122aX2d_zKXXszpCEiZXfd5RRYZwmHqtn/view?usp=sharing",
+    "featured": false
+  },
+  {
+    "name": "Burger Time",
+    "thumbnail": "/assets/images/projectThumbnails/Burger.jpg",
+    "description": "",
+    "technologies": "Built with jquery, handlebars, express and mysql.",
+    "gitHub": "https://github.com/marcushilaire/Burgers",
+    "deployed": "https://protected-thicket-56410.herokuapp.com/",
+    "video": "",
+    "featured": false
+  },
+  {
+    "name": "Link Up",
+    "thumbnail": "/assets/images/projectThumbnails/LinkUp.png",
+    "description": "",
+    "technologies":
+      "Back end dev on a team of four. Built with jquery, cheerio, amazon bucket, handlebars, express and sequelize.",
+    "gitHub": "https://github.com/marcushilaire/linkup",
+    "deployed": "http://www.addlinkup.com/",
+    "video": "",
+    "featured": true
+  },
+  {
+    "name": "Memory Game",
+    "thumbnail": "/assets/images/projectThumbnails/Hero.jpg",
+    "description": "",
+    "technologies": "Built with react and bootstrap.",
+    "gitHub": "https://github.com/marcushilaire/Memory",
+    "deployed": "https://marcushilaire.github.io/Memory/",
+    "video": "",
+    "featured": false
+  },
+  {
+    "name": "5 O'Clock",
+    "thumbnail": "/assets/images/projectThumbnails/5oClock.jpg",
+    "description": "",
+    "technologies": "Back end dev on a team of four. MERN stack application.",
+    "gitHub": "https://github.com/marcushilaire/5oclock-dc",
+    "deployed": "http://www.5oclockdc.com/",
+    "video": "",
+    "featured": true
+  },
+  {
+    "name": "Lifelong Learning",
+    "thumbnail": "/assets/images/projectThumbnails/Node.png",
+    "description": "",
+    "technologies":
+      "Testing new methods or libraries and going through their documenation.",
+    "gitHub": "https://github.com/marcushilaire/Learning",
+    "deployed": "",
+    "video": "",
+    "featured": true
+  },
+  {
+    "name": "Hide API Keys (Tutorial)",
+    "thumbnail": "/assets/images/projectThumbnails/Node.png",
+    "description": "",
+    "technologies": "Added .env and express to GIPHY",
+    "gitHub": "https://github.com/marcushilaire/hidekeys",
+    "deployed": "https://hide-api-keys.herokuapp.com/",
+    "video": "",
+    "featured": true
+  }
+]
