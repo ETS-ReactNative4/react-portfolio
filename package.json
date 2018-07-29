@@ -17,5 +17,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+<<<<<<< HEAD
   "homepage": "https://marcushilaire.github.io/"
+=======
+  "homepage": "https://marcushilaire.github.io/react-portfolio/"
+>>>>>>> parent of bf02dce... Updates
 }
