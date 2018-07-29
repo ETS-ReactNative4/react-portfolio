@@ -1,7 +1,7 @@
 [
   {
     "name": "Psychic Game",
-    "thumbnail": "/assets/images/projectThumbnails/Psychic.png",
+    "thumbnail": "./assets/images/projectThumbnails/Psychic.png",
     "description": "",
     "technologies": "Built with vanilla javascript and bootstrap",
     "gitHub": "https://github.com/marcushilaire/psychic-game",
@@ -11,7 +11,7 @@
   },
   {
     "name": "Crystal Collector",
-    "thumbnail": "/assets/images/projectThumbnails/Crystal.jpg",
+    "thumbnail": "./assets/images/projectThumbnails/Crystal.jpg",
     "description": "",
     "technologies": "Built with jquery and bootstrap.",
     "gitHub": "https://github.com/marcushilaire/Crystal-Collector",
@@ -21,7 +21,7 @@
   },
   {
     "name": "Budget Tracker",
-    "thumbnail": "/assets/images/projectThumbnails/Budget.png",
+    "thumbnail": "./assets/images/projectThumbnails/Budget.png",
     "description": "",
     "technologies": "Built with jquery, bulma and charts.js.",
     "gitHub": "https://github.com/marcushilaire/group-project1",
@@ -31,7 +31,7 @@
   },
   {
     "name": "GIPHY",
-    "thumbnail": "/assets/images/projectThumbnails/giphy.gif",
+    "thumbnail": "./assets/images/projectThumbnails/giphy.gif",
     "description": "",
     "technologies": "Built with jquery and bootstrap. Uses giphy API.",
     "gitHub": "https://github.com/marcushilaire/GIPHY",
@@ -41,7 +41,7 @@
   },
   {
     "name": "LIRI",
-    "thumbnail": "/assets/images/projectThumbnails/Node.png",
+    "thumbnail": "./assets/images/projectThumbnails/Node.png",
     "description": "",
     "technologies":
       "A node app built with .env. Uses Spotify, Twitter and OMDB API.",
@@ -52,7 +52,7 @@
   },
   {
     "name": "Friend Finder",
-    "thumbnail": "/assets/images/projectThumbnails/Friend.png",
+    "thumbnail": "./assets/images/projectThumbnails/Friend.png",
     "description": "",
     "technologies": "Built with jquery, bootstrap and express.",
     "gitHub": "https://github.com/marcushilaire/Friend-Finder",
@@ -62,7 +62,7 @@
   },
   {
     "name": "Band It",
-    "thumbnail": "/assets/images/projectThumbnails/BandIt.jpg",
+    "thumbnail": "./assets/images/projectThumbnails/BandIt.jpg",
     "description": "",
     "technologies":
       "Built with jquery, bootstrap and express. Uses Spotify, BandsInTown and Yelp API",
@@ -73,7 +73,7 @@
   },
   {
     "name": "Bamazon",
-    "thumbnail": "/assets/images/projectThumbnails/Node.png",
+    "thumbnail": "./assets/images/projectThumbnails/Node.png",
     "description": "",
     "technologies": "A node app that interfaces with a mysql database",
     "gitHub": "https://github.com/marcushilaire/bamazon",
@@ -83,7 +83,7 @@
   },
   {
     "name": "Burger Time",
-    "thumbnail": "/assets/images/projectThumbnails/Burger.jpg",
+    "thumbnail": "./assets/images/projectThumbnails/Burger.jpg",
     "description": "",
     "technologies": "Built with jquery, handlebars, express and mysql.",
     "gitHub": "https://github.com/marcushilaire/Burgers",
@@ -93,7 +93,7 @@
   },
   {
     "name": "Link Up",
-    "thumbnail": "/assets/images/projectThumbnails/LinkUp.png",
+    "thumbnail": "./assets/images/projectThumbnails/LinkUp.png",
     "description": "",
     "technologies":
       "Back end dev on a team of four. Built with jquery, cheerio, amazon bucket, handlebars, express and sequelize.",
@@ -104,7 +104,7 @@
   },
   {
     "name": "Memory Game",
-    "thumbnail": "/assets/images/projectThumbnails/Hero.jpg",
+    "thumbnail": "./assets/images/projectThumbnails/Hero.jpg",
     "description": "",
     "technologies": "Built with react and bootstrap.",
     "gitHub": "https://github.com/marcushilaire/Memory",
@@ -114,7 +114,7 @@
   },
   {
     "name": "5 O'Clock",
-    "thumbnail": "/assets/images/projectThumbnails/5oClock.jpg",
+    "thumbnail": "./assets/images/projectThumbnails/5oClock.jpg",
     "description": "",
     "technologies": "Back end dev on a team of four. MERN stack application.",
     "gitHub": "https://github.com/marcushilaire/5oclock-dc",
@@ -124,7 +124,7 @@
   },
   {
     "name": "Lifelong Learning",
-    "thumbnail": "/assets/images/projectThumbnails/Node.png",
+    "thumbnail": "./assets/images/projectThumbnails/Node.png",
     "description": "",
     "technologies":
       "Testing new methods or libraries and going through their documenation.",
@@ -135,7 +135,7 @@
   },
   {
     "name": "Hide API Keys (Tutorial)",
-    "thumbnail": "/assets/images/projectThumbnails/Node.png",
+    "thumbnail": "./assets/images/projectThumbnails/Node.png",
     "description": "",
     "technologies": "Added .env and express to GIPHY",
     "gitHub": "https://github.com/marcushilaire/hidekeys",
