@@ -7,7 +7,7 @@ const NavBar = props => (
       ) : (
         <h3
           onClick={() => props.changeFocus("featured")}
-          className="col-xs-12 col-md-4 navPill "
+          className="col-xs-12 col-md-4 navPill"
         >
           Featured Projects
         </h3>

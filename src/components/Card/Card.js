@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = props => (
   <div className="card projectThumbnail">
-    {/* {console.log(props.technologies)} */}
+    {/* {console.log(props.techgnologies)} */}
     <img
       className=" img-fluid"
       src={props.thumbnail}

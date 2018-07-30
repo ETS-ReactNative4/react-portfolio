@@ -22,31 +22,29 @@
 .App-intro {
   font-size: large;
 }
+
 body {
   background-image: url(/assets/images/connectwork.png);
 }
-.memeContent {
-  float: left;
-  /* max-width: 10%; */
-}
-.memeImage {
-  width: 200px;
-}
+
 .projectThumbnail {
   background-color: #22333b;
   color: #f2f4f3;
   padding: 0px;
   margin-bottom: 15px;
 }
+
 .focus {
   text-align: center;
   color: black;
   background-color: #f2f4f3;
 }
+
 .focusedProject {
   text-align: center;
   color: black;
 }
+
 @media (max-width: 145px) {
   .focus {
     max-width: 30%;
@@ -57,12 +55,12 @@ body {
 }
 .navPill:hover {
   background-color: #0d3b66;
-  /* width: 30%; */
 }
 .singleImage {
   margin-bottom: 5px;
   margin-right: 5px;
 }
+
 @media (min-width: 415px) {
   .singleImage {
     float: left;

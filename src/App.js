@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import API from "./utils/API";
 import RenderSingle from "./components/RenderSingle";
+import AboutMe from "./components/AboutMe";
 
 class App extends Component {
   state = {
@@ -48,18 +49,14 @@ class App extends Component {
           <h1 className="App-title">How do you want to do this?</h1>
           <br />
           <NavBar focus={this.state.focus} changeFocus={this.changeFocus} />
+
           {typeof this.state.focus === "object" ? (
             <h3 className="focusedProject">{this.state.focus.name}</h3>
           ) : (
             ""
           )}
         </header>
-        {/* <div className="memeContent">
-          <img
-            className="memeImage img-fluid"
-            src="./assets/images/mercySpray.png"
-          />
-        </div> */}
+
         <div className="container">
           {/* render only featured projects */}
           {this.state.focus === "featured" ? (
@@ -77,6 +74,7 @@ class App extends Component {
             ""
           )}
           {/* render about me/contact */}
+          {this.state.focus === "about" ? <AboutMe /> : ""}
           {/* render single project */}
           {typeof this.state.focus === "object" ? (
             // this.serveComponent(this.state.focus)
