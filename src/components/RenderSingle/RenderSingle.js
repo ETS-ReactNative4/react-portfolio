@@ -33,8 +33,10 @@ class RenderSingle extends Component {
               ""
             )}
           </div>
-          {/* the description */}
+          {/* the tech used */}
           <p className="techUsed">{this.props.elements.technologies}</p>
+          {/* description */}
+          <p className="description">{this.props.elements.description}</p>
           {/* the api results */}
           <div className="singleText">
             <p className="resultsHeader">Five most recent commits: </p>

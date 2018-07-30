@@ -36,7 +36,11 @@ body {
 
 .techUsed {
   text-align: center;
-  color: #f2f4f3;
+  color: black;
+}
+
+.description {
+  text-align: left;
 }
 
 /* start of navbar css */
