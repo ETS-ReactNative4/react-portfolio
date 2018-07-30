@@ -6,9 +6,6 @@ const AboutMe = props => (
       src="./assets/images/Me.jpg"
       alt="Me"
     />
-    <div className="singleLink">
-      <a href="#">GitHub</a>{" "}
-    </div>
     <div className="singleText">
       <p>
         Doggo ipsum heckin good boys borkdrive h*ck what a nice floof doggorino

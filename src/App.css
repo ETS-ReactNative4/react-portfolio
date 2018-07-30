@@ -34,6 +34,11 @@ body {
   margin-bottom: 15px;
 }
 
+.techUsed {
+  text-align: center;
+  color: #f2f4f3;
+}
+
 /* start of navbar css */
 .focus {
   text-align: center;

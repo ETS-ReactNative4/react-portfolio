@@ -3,7 +3,6 @@ import React from "react";
 
 const renderAll = props => (
   <div className="row">
-    {/* {console.log(props.callAPI)} */}
     {props.array.map((currVal, index) => {
       return (
         <div key={currVal.name} className="col-xs-12 col-sm-6 col-md-4">
