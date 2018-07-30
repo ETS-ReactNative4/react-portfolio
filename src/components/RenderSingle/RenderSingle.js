@@ -30,13 +30,13 @@ class RenderSingle extends Component {
             {this.props.elements.video ? (
               <a href={this.props.elements.video}>Video</a>
             ) : (
-              <p />
+              ""
             )}
           </div>
           {/* the description */}
           <p>{this.props.elements.description}</p>
           {/* the api results */}
-          <div className="apiResults">
+          <div className="singleText">
             <p className="resultsHeader">Five most recent commits: </p>
             {this.props.results.map(currVal => {
               return (

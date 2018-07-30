@@ -12,7 +12,7 @@ import AboutMe from "./components/AboutMe";
 
 class App extends Component {
   state = {
-    focus: "all",
+    focus: "about",
     sort: "default",
     apiResult: []
   };

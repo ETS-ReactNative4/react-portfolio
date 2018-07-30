@@ -34,6 +34,7 @@ body {
   margin-bottom: 15px;
 }
 
+/* start of navbar css */
 .focus {
   text-align: center;
   color: black;
@@ -50,12 +51,17 @@ body {
     max-width: 30%;
   }
 }
+
 .navPill {
   text-align: center;
 }
+
 .navPill:hover {
   background-color: #0d3b66;
 }
+/* end of navbar css */
+
+/* start of RenderSingle css */
 .singleImage {
   margin-bottom: 5px;
   margin-right: 5px;
@@ -67,13 +73,16 @@ body {
     max-width: 30%;
   }
 }
+
 .resultsHeader {
   font-size: 20px;
   color: gray;
 }
-.apiResults {
+
+.singleText {
   text-align: left;
 }
+
 .singleLink {
   font-size: 30px;
   text-align: center;
@@ -85,6 +94,7 @@ body {
   margin-bottom: 30px;
   padding: 5px;
 }
+/* end of renderSingle css */
 
 #footertext {
   float: none;
