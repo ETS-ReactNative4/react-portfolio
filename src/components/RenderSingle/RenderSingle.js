@@ -7,7 +7,6 @@ class RenderSingle extends Component {
   };
   normaliseDate = dateString => {
     let dateArr = this.props.reverseArr(dateString.split("-"));
-    console.log(this.props.reverseArr(dateArr));
     let newDate = dateArr.reduce((accum, currVal, index) => {
       return `${accum}-${currVal}`;
     });

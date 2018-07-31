@@ -12,7 +12,8 @@
   {
     "name": "Crystal Collector",
     "thumbnail": "./assets/images/projectThumbnails/Crystal.jpg",
-    "description": "",
+    "description":
+      "My second javascript homework assignment. This is when i first had the opportunity to properly explore jquery and event listeners. I wrote the entire epplication out on paper before writing any code. This assignment is when things started to click for me in bootcamp",
     "technologies": "Built with jquery and bootstrap.",
     "gitHub": "https://github.com/marcushilaire/Crystal-Collector",
     "deployed": "https://marcushilaire.github.io/Crystal-Collector/",
@@ -22,7 +23,8 @@
   {
     "name": "Budget Tracker",
     "thumbnail": "./assets/images/projectThumbnails/Budget.png",
-    "description": "",
+    "description":
+      "My first project and it was entirely front end. I focused mainly on the javascript and was responsible for learning and implementing charts.js. This was before we learned any database or backend so all data persistence was done through local storage. This app could have really flourished if built on the MERN stack and used authentcation. I intend to rebuild it some time in the future.",
     "technologies": "Built with jquery, bulma and charts.js.",
     "gitHub": "https://github.com/marcushilaire/group-project1",
     "deployed": "https://marcushilaire.github.io/group-project1/",
@@ -63,7 +65,8 @@
   {
     "name": "Band It",
     "thumbnail": "./assets/images/projectThumbnails/BandIt.jpg",
-    "description": "",
+    "description":
+      "My second project, started just after we learned express and was the first full application I built with a back end. I focused on backend scaffolding and routing. Once that was complete I worked on the Spotify Authorization feature.",
     "technologies":
       "Built with jquery, bootstrap and express. Uses Spotify, BandsInTown and Yelp API",
     "gitHub": "https://github.com/marcushilaire/band-it",
@@ -94,7 +97,8 @@
   {
     "name": "Link Up",
     "thumbnail": "./assets/images/projectThumbnails/LinkUp.png",
-    "description": "",
+    "description":
+      "My third project, started just after we learned sequelize and was our first full stack application. Although it worked out, I found that I spent too much time on the spotify feature in my previous project. To avoid doing that here, i focused on core functionality on the back end, like user interation, rather than bonus features",
     "technologies":
       "Back end dev on a team of four. Built with jquery, cheerio, amazon bucket, handlebars, express and sequelize.",
     "gitHub": "https://github.com/marcushilaire/linkup",
@@ -115,7 +119,8 @@
   {
     "name": "5 O'Clock",
     "thumbnail": "./assets/images/projectThumbnails/5oClock.jpg",
-    "description": "",
+    "description":
+      "The fourth and final project in bootcamp and my first MERN stack application.",
     "technologies": "Back end dev on a team of four. MERN stack application.",
     "gitHub": "https://github.com/marcushilaire/5oclock-dc",
     "deployed": "http://www.5oclockdc.com/",
@@ -127,7 +132,7 @@
     "thumbnail": "./assets/images/projectThumbnails/Node.png",
     "description": "",
     "technologies":
-      "Testing new methods or libraries and going through their documenation.",
+      "Testing unfamiliar methods or libraries and going through their documenation.",
     "gitHub": "https://github.com/marcushilaire/Learning",
     "deployed": "",
     "video": "",

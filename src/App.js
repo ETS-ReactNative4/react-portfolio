@@ -12,7 +12,7 @@ import AboutMe from "./components/AboutMe";
 
 class App extends Component {
   state = {
-    focus: "about",
+    focus: "featured",
     sort: "default",
     apiResult: []
   };
@@ -82,6 +82,7 @@ class App extends Component {
               elements={this.state.focus}
               callAPI={this.callAPI}
               results={this.state.apiResult}
+              reverseArr={this.reverseArr}
             />
           ) : (
             ""

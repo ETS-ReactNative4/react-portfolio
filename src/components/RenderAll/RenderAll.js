@@ -15,6 +15,7 @@ const renderAll = props => (
             description={currVal.description}
             changeFocus={props.changeFocus}
             technologies={currVal.technologies}
+            featured={currVal.featured}
           />
         </div>
       );

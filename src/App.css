@@ -27,11 +27,16 @@ body {
   background-image: url(/assets/images/connectwork.png);
 }
 
-.projectThumbnail {
+.projectThumbnail,
+.featuredThumbnail {
   background-color: #22333b;
   color: #f2f4f3;
   padding: 0px;
   margin-bottom: 15px;
+}
+.featuredThumbnail :hover {
+  background-color: #f2f4f3;
+  color: #22333b;
 }
 
 .techUsed {
