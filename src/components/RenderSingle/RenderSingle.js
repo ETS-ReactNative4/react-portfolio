@@ -5,6 +5,14 @@ class RenderSingle extends Component {
       this.props.elements.gitHub.replace("https://github.com/", "")
     );
   };
+  normaliseDate = dateString => {
+    let dateArr = this.props.reverseArr(dateString.split("-"));
+    console.log(this.props.reverseArr(dateArr));
+    let newDate = dateArr.reduce((accum, currVal, index) => {
+      return `${accum}-${currVal}`;
+    });
+    return newDate;
+  };
 
   render() {
     return (
@@ -43,8 +51,9 @@ class RenderSingle extends Component {
             {this.props.results.map(currVal => {
               return (
                 <p key={currVal.commit.committer.date}>
-                  {currVal.commit.committer.date.split("T")[0]}:{" "}
-                  {currVal.commit.message}
+                  {this.normaliseDate(
+                    currVal.commit.committer.date.split("T")[0]
+                  )}: {currVal.commit.message}
                 </p>
               );
             })}
