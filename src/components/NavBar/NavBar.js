@@ -1,6 +1,9 @@
 import React from "react";
 const NavBar = props => (
-  <div className="container">
+  <div
+    className="container"
+    // id="mainNav"
+  >
     <div className="row">
       {props.focus === "featured" ? (
         <h3 className="col-xs-12 col-md-4 focus">Featured Projects</h3>

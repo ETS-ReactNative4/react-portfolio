@@ -7,12 +7,15 @@
   height: 15px;
 }
 
-.App-header {
+#navName,
+#mainNav {
   background-color: #22333b;
-  min-height: 30%;
-  padding: 20px;
+  margin-bottom: 0;
   color: #f2f4f3;
-  margin-bottom: 30px;
+}
+#mainNav {
+  margin-top: 0;
+  /* margin-bottom: 30px; */
 }
 
 .App-title {
@@ -97,6 +100,18 @@ body {
 
 .fa-star {
   animation: wiggle infinite 2s linear;
+}
+
+.sticky {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* margin-bottom: 60px; */
+}
+#mainNav {
+  text-align: center;
+  z-index: 3;
 }
 /* end of navbar css */
 

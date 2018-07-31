@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./d20.png";
 import "./App.css";
 import importProjects from "./projects.json";
 import RenderAll from "./components/RenderAll";
@@ -39,28 +38,51 @@ class App extends Component {
     return dump;
   }; // returns the reverse, without affecting the original array
 
-  componentDidMount = () => {};
+  handleScroll = () => {
+    let navbar = document.getElementById("mainNav");
+    const sticky = navbar.offsetTop;
+    // console.log(sticky, window.pageYOffset);
+    if (window.pageYOffset >= 23) {
+      navbar.classList.add("sticky");
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  };
+  componentDidMount = () => {
+    console.log(
+      document.getElementById("mainNav").offsetTop,
+      window.pageYOffset
+    );
+    window.addEventListener("scroll", this.handleScroll);
+  };
+
+  componentWillUnmoun = () => {
+    window.removeEventListener("scroll", this.handleScroll);
+  };
 
   render() {
+    {
+    }
     return (
       <div className="App">
-        <header className="App-header">
+        {/* <header className="App-header" id="mainNav"> */}
+        <p id="navName">Marcus hilaire</p>
+        <div id="mainNav">
           <NavBar focus={this.state.focus} changeFocus={this.changeFocus} />
-
-          {typeof this.state.focus === "object" ? (
-            <h3 className="focusedProject">
-              <i
-                onClick={() => this.changeFocus("featured")}
-                className="fa fa-arrow-left fa-lg"
-                aria-hidden="true"
-              />
-              {`  ${this.state.focus.name}`}
-            </h3>
-          ) : (
-            ""
-          )}
-        </header>
-
+        </div>
+        {typeof this.state.focus === "object" ? (
+          <h3 className="focusedProject">
+            <i
+              onClick={() => this.changeFocus("featured")}
+              className="fa fa-arrow-left fa-lg"
+              aria-hidden="true"
+            />
+            {`  ${this.state.focus.name}`}
+          </h3>
+        ) : (
+          ""
+        )}
+        {/* </header> */}
         <div className="container">
           {/* render only featured projects */}
           {this.state.focus === "featured" ? (
