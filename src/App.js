@@ -54,7 +54,7 @@ class App extends Component {
             <h3 className="focusedProject">
               <i
                 onClick={() => this.changeFocus("featured")}
-                className="fa fa-arrow-left"
+                className="fa fa-arrow-left fa-lg"
                 aria-hidden="true"
               />
               {`  ${this.state.focus.name}`}

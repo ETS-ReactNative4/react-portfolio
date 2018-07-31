@@ -34,9 +34,17 @@ body {
   padding: 0px;
   margin-bottom: 15px;
 }
+
 .featuredThumbnail :hover {
   background-color: #f2f4f3;
   color: #22333b;
+  /* animation: grow 0.25s linear !important;
+  transform: scale(1.12) !important; */
+}
+
+.featuredImg :hover {
+  animation: grow 0.25s linear;
+  transform: scale(1.12);
 }
 
 .techUsed {
@@ -72,14 +80,19 @@ body {
 
 .navPill:hover {
   background-color: #0d3b66;
+  animation: grow 0.25s linear;
+  transform: scale(1.12);
 }
+
 .fa,
 .fa-arrow-left {
   color: white;
-  /* height: 100px; */
+  animation: pulse infinite 1s linear;
 }
+
 .fa:hover,
 .fa-arrow-left:hover {
+  animation: pulse infinite 0.75s linear;
   color: red;
 }
 /* end of navbar css */
@@ -133,11 +146,42 @@ footer {
   height: 25px;
 }
 
+/* animations */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.12);
+  }
+  40% {
+    transform: scale(1.25);
+  }
+  60% {
+    transform: scale(1.25);
+  }
+  80% {
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.12);
   }
 }
