@@ -95,7 +95,7 @@ body {
 }
 
 .fa-star {
-  animation: wiggle infinite 1.5s linear;
+  animation: wiggle infinite 2s linear;
 }
 /* end of navbar css */
 
@@ -190,18 +190,18 @@ footer {
 
 @keyframes wiggle {
   0% {
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
   }
   25% {
     transform: rotate(0deg);
   }
   50% {
-    transform: rotate(20deg);
+    transform: rotate(15deg);
   }
   75% {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
   }
 }
