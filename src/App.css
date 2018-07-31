@@ -84,16 +84,18 @@ body {
   transform: scale(1.12);
 }
 
-.fa,
 .fa-arrow-left {
   color: white;
   animation: pulse infinite 1s linear;
 }
 
-.fa:hover,
 .fa-arrow-left:hover {
   animation: pulse infinite 0.75s linear;
   color: red;
+}
+
+.fa-star {
+  animation: wiggle infinite 1.5s linear;
 }
 /* end of navbar css */
 
@@ -183,5 +185,23 @@ footer {
   }
   100% {
     transform: scale(1.12);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(-20deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-20deg);
   }
 }
