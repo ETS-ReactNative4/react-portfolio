@@ -27,6 +27,7 @@ class App extends Component {
   changeFocus = newFocus => {
     // tkaes in a string
     this.setState({ focus: newFocus });
+    window.scrollTo(0, 0);
   }; // changes the state to render a different component
 
   reverseArr = array => {
@@ -41,18 +42,13 @@ class App extends Component {
   handleScroll = () => {
     let navbar = document.getElementById("mainNav");
     const sticky = navbar.offsetTop;
-    // console.log(sticky, window.pageYOffset);
-    if (window.pageYOffset >= 23) {
+    if (window.pageYOffset >= 24) {
       navbar.classList.add("sticky");
     } else {
       navbar.classList.remove("sticky");
     }
   };
   componentDidMount = () => {
-    console.log(
-      document.getElementById("mainNav").offsetTop,
-      window.pageYOffset
-    );
     window.addEventListener("scroll", this.handleScroll);
   };
 
@@ -61,8 +57,6 @@ class App extends Component {
   };
 
   render() {
-    {
-    }
     return (
       <div className="App">
         {/* <header className="App-header" id="mainNav"> */}
