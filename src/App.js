@@ -45,9 +45,6 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">How do you want to do this?</h1>
-          <br />
           <NavBar focus={this.state.focus} changeFocus={this.changeFocus} />
 
           {typeof this.state.focus === "object" ? (

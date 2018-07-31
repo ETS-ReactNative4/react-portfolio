@@ -21,7 +21,7 @@ const Card = props => (
             {props.deployed ? <a href={props.deployed}>Deployed</a> : ""}
             {props.video ? <a href={props.video}>Video</a> : ""}
             {"  "}
-            <i class="fa fa-star" aria-hidden="true" />
+            <i className="fa fa-star" aria-hidden="true" />
           </p>
           <div
             onClick={() => {
