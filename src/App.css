@@ -19,32 +19,11 @@ body {
   background-image: url(/assets/images/connectwork.png);
 }
 /* End of base react stuff  */
+
 .projectThumbnail,
-.featuredThumbnail {
-  background-color: #22333b;
-  color: #f2f4f3;
-  padding: 0px;
-  margin-bottom: 15px;
-}
 
-.featuredThumbnail :hover {
-  background-color: #f2f4f3;
-  color: #22333b;
-}
 
-.featuredImg :hover {
-  animation: grow 0.25s linear;
-  transform: scale(1.12);
-}
 
-.techUsed {
-  text-align: center;
-  color: black;
-}
-
-.description {
-  text-align: left;
-}
 
 /* start of navbar css */
 .focus {
@@ -116,6 +95,10 @@ body {
   margin-right: 5px;
 }
 
+.description {
+  text-align: left;
+}
+
 @media (min-width: 415px) {
   .singleImage {
     float: left;
@@ -145,6 +128,30 @@ body {
 }
 /* end of renderSingle css */
 
+/* thumbnails */
+.featuredThumbnail {
+  background-color: #22333b;
+  color: #f2f4f3;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+.featuredThumbnail :hover {
+  background-color: #f2f4f3;
+  color: #22333b;
+}
+
+.featuredImg :hover {
+  animation: grow 0.25s linear;
+  transform: scale(1.12);
+}
+
+.techUsed {
+  text-align: center;
+  color: black;
+}
+
+/* footer */
 #footertext {
   float: none;
   color: grey;
