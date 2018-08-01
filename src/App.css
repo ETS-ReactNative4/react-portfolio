@@ -7,17 +7,6 @@
   height: 15px;
 }
 
-#navName,
-#mainNav {
-  background-color: #22333b;
-  margin-bottom: 0;
-  color: #f2f4f3;
-}
-#mainNav {
-  margin-top: 0;
-  /* margin-bottom: 30px; */
-}
-
 .App-title {
   font-size: 1.5em;
 }
@@ -29,7 +18,7 @@
 body {
   background-image: url(/assets/images/connectwork.png);
 }
-
+/* End of base react stuff  */
 .projectThumbnail,
 .featuredThumbnail {
   background-color: #22333b;
@@ -41,8 +30,6 @@ body {
 .featuredThumbnail :hover {
   background-color: #f2f4f3;
   color: #22333b;
-  /* animation: grow 0.25s linear !important;
-  transform: scale(1.12) !important; */
 }
 
 .featuredImg :hover {
@@ -65,7 +52,15 @@ body {
   color: black;
   background-color: #f2f4f3;
 }
-
+#navName,
+#mainNav {
+  background-color: #22333b;
+  margin-bottom: 0;
+  color: #f2f4f3;
+}
+#mainNav {
+  margin-top: 0;
+}
 .focusedProject {
   text-align: center;
   color: black;

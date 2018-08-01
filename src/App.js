@@ -44,20 +44,21 @@ class App extends Component {
     const sticky = navbar.offsetTop;
     console.log(sticky, window.pageYOffset);
     if (window.pageYOffset >= sticky) {
+      // this.setState=
       navbar.classList.add("sticky");
     } else {
       navbar.classList.remove("sticky");
     }
   };
-  // componentDidMount = () => {
-  //   window.addEventListener("scroll", this.handleScroll);
-  //   let navPos = document.getElementById("mainNav").offsetTop;
-  //   console.log(navPos);
-  // };
+  componentDidMount = () => {
+    window.addEventListener("scroll", this.handleScroll);
+    let navPos = document.getElementById("mainNav").offsetTop;
+    console.log(navPos);
+  };
 
-  // componentWillUnmount = () => {
-  //   window.removeEventListener("scroll", this.handleScroll);
-  // };
+  componentWillUnmount = () => {
+    window.removeEventListener("scroll", this.handleScroll);
+  };
 
   render() {
     return (
@@ -67,21 +68,21 @@ class App extends Component {
         <h1 id="navName">Marcus hilaire</h1>
         <div id="mainNav">
           <NavBar focus={this.state.focus} changeFocus={this.changeFocus} />
+          {typeof this.state.focus === "object" ? (
+            <h3 className="focusedProject">
+              <i
+                onClick={() => this.changeFocus("featured")}
+                className="fa fa-arrow-left fa-lg"
+                aria-hidden="true"
+              />
+              {`  ${this.state.focus.name}`}
+            </h3>
+          ) : (
+            ""
+          )}
         </div>
-        {typeof this.state.focus === "object" ? (
-          <h3 className="focusedProject">
-            <i
-              onClick={() => this.changeFocus("featured")}
-              className="fa fa-arrow-left fa-lg"
-              aria-hidden="true"
-            />
-            {`  ${this.state.focus.name}`}
-          </h3>
-        ) : (
-          ""
-        )}
         {/* </header> */}
-        <div className="container">
+        <div className="container" id="content">
           {/* render only featured projects */}
           {this.state.focus === "featured" ? (
             <RenderFeatured
