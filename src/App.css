@@ -20,25 +20,24 @@ body {
 }
 /* End of base react stuff  */
 
-.projectThumbnail,
-
-
-
-
 /* start of navbar css */
 .focus {
   text-align: center;
   color: black;
   background-color: #f2f4f3;
 }
-#navName,
-#mainNav {
+#navName {
   background-color: #22333b;
   margin-bottom: 0;
   color: #f2f4f3;
 }
+
 #mainNav {
   margin-top: 0;
+  background-color: #22333b;
+  margin-bottom: 30px;
+  color: #f2f4f3;
+  text-align: center;
 }
 .focusedProject {
   text-align: center;
@@ -82,11 +81,12 @@ body {
   top: 0;
   width: 100%;
   z-index: 3;
-  /* margin-bottom: 60px; */
 }
-#mainNav {
-  text-align: center;
+
+.sticky + #content {
+  padding-top: 70px;
 }
+
 /* end of navbar css */
 
 /* start of RenderSingle css */
@@ -129,6 +129,7 @@ body {
 /* end of renderSingle css */
 
 /* thumbnails */
+.projectThumbnail,
 .featuredThumbnail {
   background-color: #22333b;
   color: #f2f4f3;

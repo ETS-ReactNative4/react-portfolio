@@ -11,7 +11,7 @@ import AboutMe from "./components/AboutMe";
 
 class App extends Component {
   state = {
-    focus: "featured",
+    focus: "all",
     sort: "default",
     apiResult: []
   };
@@ -42,18 +42,20 @@ class App extends Component {
   handleScroll = () => {
     let navbar = document.getElementById("mainNav");
     const sticky = navbar.offsetTop;
-    console.log(sticky, window.pageYOffset);
-    if (window.pageYOffset >= sticky) {
-      // this.setState=
-      navbar.classList.add("sticky");
-    } else {
+    if (!this.state.stickyPos) {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+        this.setState({ stickyPos: sticky });
+      }
+      return;
+    }
+    if (window.pageYOffset < this.state.stickyPos) {
       navbar.classList.remove("sticky");
+      this.setState({ stickyPos: false });
     }
   };
   componentDidMount = () => {
     window.addEventListener("scroll", this.handleScroll);
-    let navPos = document.getElementById("mainNav").offsetTop;
-    console.log(navPos);
   };
 
   componentWillUnmount = () => {
@@ -63,9 +65,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <header className="App-header" id="mainNav"> */}
-        <img src="./assets/images/Beach.jpg" alt="beach" />
+        {/* <img src="./assets/images/Beach.jpg" alt="beach" /> */}
         <h1 id="navName">Marcus hilaire</h1>
+
         <div id="mainNav">
           <NavBar focus={this.state.focus} changeFocus={this.changeFocus} />
           {typeof this.state.focus === "object" ? (
@@ -81,7 +83,7 @@ class App extends Component {
             ""
           )}
         </div>
-        {/* </header> */}
+
         <div className="container" id="content">
           {/* render only featured projects */}
           {this.state.focus === "featured" ? (
