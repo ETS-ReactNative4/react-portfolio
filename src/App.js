@@ -42,25 +42,29 @@ class App extends Component {
   handleScroll = () => {
     let navbar = document.getElementById("mainNav");
     const sticky = navbar.offsetTop;
-    if (window.pageYOffset >= 24) {
+    console.log(sticky, window.pageYOffset);
+    if (window.pageYOffset >= sticky) {
       navbar.classList.add("sticky");
     } else {
       navbar.classList.remove("sticky");
     }
   };
-  componentDidMount = () => {
-    window.addEventListener("scroll", this.handleScroll);
-  };
+  // componentDidMount = () => {
+  //   window.addEventListener("scroll", this.handleScroll);
+  //   let navPos = document.getElementById("mainNav").offsetTop;
+  //   console.log(navPos);
+  // };
 
-  componentWillUnmoun = () => {
-    window.removeEventListener("scroll", this.handleScroll);
-  };
+  // componentWillUnmount = () => {
+  //   window.removeEventListener("scroll", this.handleScroll);
+  // };
 
   render() {
     return (
       <div className="App">
         {/* <header className="App-header" id="mainNav"> */}
-        <p id="navName">Marcus hilaire</p>
+        <img src="./assets/images/Beach.jpg" alt="beach" />
+        <h1 id="navName">Marcus hilaire</h1>
         <div id="mainNav">
           <NavBar focus={this.state.focus} changeFocus={this.changeFocus} />
         </div>
