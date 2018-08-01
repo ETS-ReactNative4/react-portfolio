@@ -54,6 +54,7 @@ class App extends Component {
       this.setState({ stickyPos: false });
     }
   };
+
   componentDidMount = () => {
     window.addEventListener("scroll", this.handleScroll);
   };

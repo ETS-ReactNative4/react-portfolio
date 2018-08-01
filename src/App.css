@@ -86,7 +86,11 @@ body {
 .sticky + #content {
   padding-top: 70px;
 }
-
+@media (max-width: 415px) {
+  .sticky + #content {
+    padding-top: 150px;
+  }
+}
 /* end of navbar css */
 
 /* start of RenderSingle css */
