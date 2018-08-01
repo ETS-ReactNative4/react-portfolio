@@ -98,7 +98,7 @@
     "name": "Link Up",
     "thumbnail": "./assets/images/projectThumbnails/LinkUp.png",
     "description":
-      "My third project, started just after we learned sequelize and was our first full stack application. Although it worked out, I found that I spent too much time on the spotify feature in my previous project. To avoid doing that here, i focused on core functionality on the back end, like user interation, rather than bonus features",
+      "My third project, started just after we learned sequelize and was our first full stack application. Although it worked out, I found that I spent too much time on the spotify feature in my previous project. To avoid doing that here, I focused on core functionality on the back end, like user interation, rather than bonus features.",
     "technologies":
       "Back end dev on a team of four. Built with jquery, cheerio, amazon bucket, handlebars, express and sequelize.",
     "gitHub": "https://github.com/marcushilaire/linkup",

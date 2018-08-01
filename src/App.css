@@ -225,3 +225,11 @@ footer {
     transform: rotate(-15deg);
   }
 }
+
+/* quality of life pointers */
+.navPill,
+.featuredThumbnail,
+.fa-arrow-left,
+.featuredImg:hover {
+  cursor: pointer;
+}

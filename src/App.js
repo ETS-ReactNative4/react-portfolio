@@ -67,7 +67,7 @@ class App extends Component {
     return (
       <div className="App">
         {/* <img src="./assets/images/Beach.jpg" alt="beach" /> */}
-        <h1 id="navName">Marcus hilaire</h1>
+        <h1 id="navName">Marcus Hilaire</h1>
 
         <div id="mainNav">
           <NavBar focus={this.state.focus} changeFocus={this.changeFocus} />
