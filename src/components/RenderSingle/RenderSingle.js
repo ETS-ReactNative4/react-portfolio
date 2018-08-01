@@ -15,7 +15,7 @@ class RenderSingle extends Component {
 
   render() {
     return (
-      <div className="card singleTextBox">
+      <div className="singleTextBox">
         <div>
           <img
             className="img-fluid singleImage"
@@ -46,10 +46,10 @@ class RenderSingle extends Component {
           <p className="description">{this.props.elements.description}</p>
           {/* the api results */}
           <div className="singleText">
-            <p className="resultsHeader">Five most recent commits: </p>
+            <p className="resultsHeader">Most recent GitHub commits: </p>
             {this.props.results.map(currVal => {
               return (
-                <p key={currVal.commit.committer.date}>
+                <p className="apiResults" key={currVal.commit.committer.date}>
                   {this.normaliseDate(
                     currVal.commit.committer.date.split("T")[0]
                   )}: {currVal.commit.message}

@@ -72,7 +72,7 @@ class App extends Component {
         <div id="mainNav">
           <NavBar focus={this.state.focus} changeFocus={this.changeFocus} />
           {typeof this.state.focus === "object" ? (
-            <h3 className="focusedProject">
+            <h3 id="focusedProject">
               <i
                 onClick={() => this.changeFocus("featured")}
                 className="fa fa-arrow-left fa-lg"
