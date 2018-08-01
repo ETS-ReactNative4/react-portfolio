@@ -78,6 +78,11 @@ class App extends Component {
                 className="fa fa-arrow-left fa-lg"
                 aria-hidden="true"
               />
+              {/* <img
+                id="newArrow"
+                src="http://www.onlygfx.com/wp-content/uploads/2016/04/hand-drawn-arrow-5.png"
+                onClick={() => this.changeFocus("featured")}
+              /> */}
               {`  ${this.state.focus.name}`}
             </h3>
           ) : (

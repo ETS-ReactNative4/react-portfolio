@@ -66,7 +66,7 @@ body {
 }
 
 .fa-arrow-left:hover {
-  animation: grow 0.25s linear;
+  animation: pulseGrow 0.25s linear;
   transform: scale(1.12);
   color: #5c9ead;
 }
@@ -88,7 +88,7 @@ body {
 }
 @media (max-width: 415px) {
   .sticky + #content {
-    padding-top: 150px;
+    padding-top: 155px;
   }
 }
 /* end of navbar css */
@@ -170,6 +170,12 @@ footer {
   margin: 0;
   height: 25px;
 }
+@media (max-width: 415px) {
+  #footertext {
+    height: 18.75px;
+    font-size: 12px;
+  }
+}
 
 /* animations */
 @keyframes App-logo-spin {
@@ -208,6 +214,12 @@ footer {
   }
 }
 
+@keyframes pulseGrow {
+  100% {
+    transform: scale(1.12);
+  }
+}
+
 @keyframes wiggle {
   0% {
     transform: rotate(-15deg);
@@ -230,6 +242,7 @@ footer {
 .navPill,
 .featuredThumbnail,
 .fa-arrow-left,
+#newArrow,
 .featuredImg:hover {
   cursor: pointer;
 }
