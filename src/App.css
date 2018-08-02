@@ -41,14 +41,15 @@ body {
 }
 #focusedProject {
   text-align: center;
-  color: black;
+  color: white;
+  background-color: black;
 }
 
-@media (max-width: 145px) {
+/* @media (max-width: 145px) {
   .focus {
     max-width: 30%;
   }
-}
+} */
 
 .navPill {
   text-align: center;
@@ -68,7 +69,7 @@ body {
 .fa-arrow-left:hover {
   animation: pulseGrow 0.25s linear;
   transform: scale(1.12);
-  color: #5c9ead;
+  color: red;
 }
 
 .fa-star {
@@ -149,25 +150,21 @@ body {
 /* thumbnails */
 .projectThumbnail,
 .featuredThumbnail {
-  background-color: #22333b;
-  color: #f2f4f3;
+  background-image: url(/assets/images/thumbnailBack.png);
+  color: white;
   padding: 0px;
   margin-bottom: 15px;
+  /* tech */
 }
 
 .featuredThumbnail :hover {
-  background-color: #f2f4f3;
+  background-image: url(/assets/images/thumbnailHover.png);
   color: #22333b;
 }
 
 .featuredImg :hover {
   animation: grow 0.25s linear;
   transform: scale(1.12);
-}
-
-.techUsed {
-  text-align: center;
-  color: black;
 }
 
 /* footer */
