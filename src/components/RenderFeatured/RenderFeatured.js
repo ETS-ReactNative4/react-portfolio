@@ -1,7 +1,7 @@
 import Card from "../Card";
 import React from "react";
 const renderFetured = props => (
-  <div className="row">
+  <div className="row" id="testRow">
     {props.array.map((currVal, index) => {
       if (currVal.featured) {
         return (

@@ -16,7 +16,11 @@
 }
 
 body {
-  background-image: url(/assets/images/stardust.png);
+  background-image: url(/assets/images/16Bit.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* End of base react stuff  */
 
@@ -152,6 +156,7 @@ body {
   padding: 10px;
   border-radius: 25px;
 }
+
 .techUsed {
   text-align: center;
 }
@@ -179,7 +184,7 @@ body {
 /* footer */
 #footertext {
   float: none;
-  color: grey;
+  color: rgb(206, 147, 147);
   display: block;
   text-align: center;
   font-size: 16px;
@@ -190,6 +195,7 @@ footer {
   margin: 0;
   height: 25px;
 }
+
 @media (max-width: 415px) {
   footer {
     display: none;
