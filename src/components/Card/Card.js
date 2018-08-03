@@ -35,7 +35,7 @@ const Card = props => (
       </div>
     ) : (
       <div className="card projectThumbnail">
-        <img className=" img-fluid" src={props.thumbnail} alt={props.name} />
+        <img className="img-fluid" src={props.thumbnail} alt={props.name} />
         <div className="card-body">
           <p>
             <a href={props.gitHub}>GitHub</a>

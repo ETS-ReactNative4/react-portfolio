@@ -9,7 +9,7 @@ const NavBar = props => (
           onClick={() => props.changeFocus("featured")}
           className="col-xs-12 col-md-4 navPill"
         >
-          Featured Projects
+          Featured
         </h3>
       )}
       {props.focus === "all" ? (
