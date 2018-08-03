@@ -16,11 +16,12 @@
 }
 
 body {
-  background-image: url(/assets/images/16Bit.jpg);
+  background-image: url(/assets/images/16BitRiver.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 /* End of base react stuff  */
 
@@ -165,14 +166,16 @@ body {
 /* thumbnails */
 .projectThumbnail,
 .featuredThumbnail {
-  background-image: url(/assets/images/thumbnailBack.png);
+  background-color: #22333b;
+  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
   color: white;
   padding: 0px;
   margin-bottom: 15px;
 }
 
 .featuredThumbnail :hover {
-  background-image: url(/assets/images/thumbnailHover.png);
+  background-color: #22333b;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
   color: #22333b;
 }
 
@@ -181,10 +184,15 @@ body {
   transform: scale(1.12);
 }
 
+#content {
+  /* max-width: 50%; */
+  /* interesting interaction */
+}
+
 /* footer */
 #footertext {
   float: none;
-  color: rgb(206, 147, 147);
+  color: white;
   display: block;
   text-align: center;
   font-size: 16px;
