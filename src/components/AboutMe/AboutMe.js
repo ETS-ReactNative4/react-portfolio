@@ -9,28 +9,28 @@ const AboutMe = props => (
       />
       <div className="singleText">
         <p>
-          Doggo ipsum heckin good boys borkdrive h*ck what a nice floof
-          doggorino snoot, vvv wow very biscit you are doing me a frighten. Aqua
-          doggo ur givin me a spook doggo noodle horse bork dat tungg tho pats,
-          heckin h*ck maximum borkdrive long water shoob doggorino. Heckin good
-          boys blep super chub shooberino such treat pupper blep, clouds length
-          boy heckin angery woofer I am bekom fat. such treat. Corgo fluffer
-          clouds wow such tempt corgo, long bois puggorino. wrinkler. Doggo blop
-          you are doin me a concern puggo, dat tungg tho long doggo, smol
-          borking doggo. Pupperino blep boof doggo heckin, mlem what a nice
-          floof. Yapper you are doing me a frighten much ruin diet doge fluffer
-          heckin, doing me a frighten tungg long woofer. H*ck smol corgo, mlem.
-          Bork shoober what a nice floof pupperino puggo doge, fat boi pupperino
-          blop wow very biscit. Heckin good boys and girls dat tungg tho blop
-          heckin good boys clouds sub woofer thicc, tungg many pats bork blep
-          mlem. Heckin good boys such treat boof wow very biscit very hand that
-          feed shibe very taste wow, the neighborhood pupper maximum borkdrive
-          thicc shibe. Lotsa pats adorable doggo blop vvv, h*ck boof. Pats waggy
-          wags heck, shoob. Boofers fat boi length boy floofs fat boi, vvv
-          borking doggo. Maximum borkdrive mlem very jealous pupper pupperino I
-          am bekom fat, adorable doggo heckin good boys and girls. You are doing
-          me a frighten long bois shoober long woofer, clouds ur givin me a
-          spook. Corgo boofers shoober ruff, thicc.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+          iaculis dolor. Praesent lacinia lacus quis ipsum aliquam laoreet. Sed
+          tempor imperdiet sapien. Proin nec nisi placerat, vulputate leo vel,
+          fringilla tellus. Nam sollicitudin dolor a sodales porttitor. Nam eu
+          porta risus. Proin consequat pretium nibh, nec euismod turpis varius
+          nec. Nam a sapien rutrum lorem congue finibus a non arcu. Suspendisse
+          nec lorem vehicula, tincidunt mauris id, lacinia tellus. Nulla
+          fermentum mi bibendum, tincidunt mi eu, facilisis erat. Suspendisse
+          aliquet tincidunt lorem, nec eleifend neque faucibus vel. Proin in
+          suscipit mi, nec vestibulum sapien. Proin augue arcu, vehicula id
+          ultrices at, lobortis ut massa. Orci varius natoque penatibus et
+          magnis dis parturient montes, nascetur ridiculus mus. Vestibulum quam
+          ante, lobortis in velit a, pharetra laoreet velit. Sed pellentesque
+          suscipit ligula. Aliquam neque ante, fermentum et purus at, blandit
+          malesuada velit. Sed porta pulvinar turpis a consequat. Sed id lorem
+          eu dui fringilla ultricies ac sed ligula. Integer nulla metus,
+          sagittis at neque at, vulputate facilisis magna. Praesent venenatis
+          pretium est ac aliquet. Integer aliquam turpis vel mauris tincidunt
+          blandit. Integer consectetur auctor dolor in ultrices. Nunc placerat
+          maximus nisi vel faucibus. Quisque venenatis fringilla lacinia. Sed in
+          ligula at quam mollis interdum. Phasellus efficitur tincidunt
+          elementum.
         </p>
       </div>
     </div>
