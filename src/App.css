@@ -154,8 +154,7 @@ body {
   text-align: left;
   /* background-color: #48555c; */
   background-color: #293738;
-  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-image: url(/assets/images/blackOrchid.png);
   color: #f2f4f3;
   margin-bottom: 30px;
   padding: 10px;
@@ -171,7 +170,7 @@ body {
 .projectThumbnail,
 .featuredThumbnail {
   background-color: #22333b;
-  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+  background-image: url(/assets/images/3pxTile.png);
   color: white;
   padding: 0px;
   margin-bottom: 15px;
@@ -179,7 +178,7 @@ body {
 
 .featuredThumbnail :hover {
   background-color: #22333b;
-  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  background-image: url(/assets/images/45DegreeFabricLight.png);
   color: #22333b;
 }
 
