@@ -34,12 +34,11 @@ body {
 }
 #navName {
   background-color: #22333b;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   color: #f2f4f3;
 }
 
 #mainNav {
-  margin-top: 0;
   background-color: #22333b;
   margin-bottom: 30px;
   color: #f2f4f3;
@@ -107,6 +106,9 @@ body {
   }
 }
 @media (max-width: 767px) {
+  #mainNav {
+    margin-top: -1px;
+  }
   .sticky + #content {
     padding-top: 155px;
   }
