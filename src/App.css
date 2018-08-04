@@ -136,7 +136,7 @@ body {
 
 .resultsHeader {
   font-size: 20px;
-  color: gray;
+  color: black;
   margin-bottom: 5px;
   clear: left;
 }
@@ -152,8 +152,10 @@ body {
 
 .singleTextBox {
   text-align: left;
-  /* background-image: url(/assets/images/stardust.png); */
-  background-color: #22333b;
+  /* background-color: #48555c; */
+  background-color: #293738;
+  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   color: #f2f4f3;
   margin-bottom: 30px;
   padding: 10px;
@@ -186,10 +188,10 @@ body {
   transform: scale(1.12);
 }
 
-#content {
-  /* max-width: 50%; */
-  /* interesting interaction */
-}
+/* #content {
+  max-width: 50%;
+  interesting interaction
+} */
 
 /* footer */
 #footertext {
