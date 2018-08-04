@@ -11,7 +11,7 @@ import AboutMe from "./components/AboutMe";
 
 class App extends Component {
   state = {
-    focus: "all",
+    focus: "about",
     sort: "default",
     apiResult: []
   };
@@ -66,7 +66,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <img src="./assets/images/Beach.jpg" alt="beach" /> */}
         <h1 id="navName">Marcus Hilaire</h1>
 
         <div id="mainNav">
@@ -78,11 +77,6 @@ class App extends Component {
                 className="fa fa-arrow-left fa-lg"
                 aria-hidden="true"
               />
-              {/* <img
-                id="newArrow"
-                src="http://www.onlygfx.com/wp-content/uploads/2016/04/hand-drawn-arrow-5.png"
-                onClick={() => this.changeFocus("featured")}
-              /> */}
               {`  ${this.state.focus.name}`}
             </h3>
           ) : (
@@ -100,17 +94,19 @@ class App extends Component {
           ) : (
             ""
           )}
+
           {/* render all projects */}
           {this.state.focus === "all" ? (
             <RenderAll array={importProjects} changeFocus={this.changeFocus} />
           ) : (
             ""
           )}
+
           {/* render about me/contact */}
           {this.state.focus === "about" ? <AboutMe /> : ""}
+
           {/* render single project */}
           {typeof this.state.focus === "object" ? (
-            // this.serveComponent(this.state.focus)
             <RenderSingle
               elements={this.state.focus}
               callAPI={this.callAPI}
@@ -121,6 +117,7 @@ class App extends Component {
             ""
           )}
         </div>
+
         <Footer />
       </div>
     );

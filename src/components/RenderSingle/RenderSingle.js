@@ -5,6 +5,7 @@ class RenderSingle extends Component {
       this.props.elements.gitHub.replace("https://github.com/", "")
     );
   };
+
   normaliseDate = dateString => {
     let dateArr = this.props.reverseArr(dateString.split("-"));
     let newDate = dateArr.reduce((accum, currVal, index) => {
@@ -40,13 +41,17 @@ class RenderSingle extends Component {
               ""
             )}
           </div>
+
           {/* the tech used */}
           <p className="techUsed">{this.props.elements.technologies}</p>
+
           {/* description */}
           <p className="description">{this.props.elements.description}</p>
+
           {/* the api results */}
           <div className="singleText">
             <p className="resultsHeader">Most recent GitHub commits: </p>
+
             {this.props.results.map(currVal => {
               return (
                 <p className="apiResults" key={currVal.commit.committer.date}>
