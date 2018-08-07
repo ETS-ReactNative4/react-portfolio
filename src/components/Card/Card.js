@@ -16,10 +16,24 @@ const Card = props => (
         </div>
         <div className="card-body">
           <p>
-            <a href={props.gitHub}>GitHub</a>
+            <a href={props.gitHub} target="_blank">
+              GitHub
+            </a>
             {props.deployed || props.video ? " | " : ""}
-            {props.deployed ? <a href={props.deployed}>Deployed</a> : ""}
-            {props.video ? <a href={props.video}>Video</a> : ""}
+            {props.deployed ? (
+              <a href={props.deployed} target="_blank">
+                Deployed
+              </a>
+            ) : (
+              ""
+            )}
+            {props.video ? (
+              <a href={props.video} target="_blank">
+                Video
+              </a>
+            ) : (
+              ""
+            )}
             {"  "}
             <i className="fa fa-star" aria-hidden="true" />
           </p>
@@ -38,10 +52,24 @@ const Card = props => (
         <img className="img-fluid" src={props.thumbnail} alt={props.name} />
         <div className="card-body">
           <p>
-            <a href={props.gitHub}>GitHub</a>
+            <a href={props.gitHub} target="_blank">
+              GitHub
+            </a>
             {props.deployed || props.video ? " | " : ""}
-            {props.deployed ? <a href={props.deployed}>Deployed</a> : ""}
-            {props.video ? <a href={props.video}>Video</a> : ""}
+            {props.deployed ? (
+              <a href={props.deployed} target="_blank">
+                Deployed
+              </a>
+            ) : (
+              ""
+            )}
+            {props.video ? (
+              <a href={props.video} target="_blank">
+                Video
+              </a>
+            ) : (
+              ""
+            )}
           </p>
           <h1 className="card-text">{props.name}</h1>
 

@@ -13,7 +13,7 @@
     "name": "Crystal Collector",
     "thumbnail": "./assets/images/projectThumbnails/Crystal.jpg",
     "description":
-      "My second javascript homework assignment. This is when i first had the opportunity to properly explore jquery and event listeners. I wrote the entire epplication out on paper before writing any code. This assignment is when things started to click for me in bootcamp",
+      "My second javascript homework assignment. This is when I first had the opportunity to properly explore jquery and event listeners. I wrote the entire epplication out on paper before writing any code. This assignment is when things started to click for me in bootcamp",
     "technologies": "Built with jquery and bootstrap.",
     "gitHub": "https://github.com/marcushilaire/Crystal-Collector",
     "deployed": "https://marcushilaire.github.io/Crystal-Collector/",
@@ -121,7 +121,7 @@
     "thumbnail": "./assets/images/projectThumbnails/5oClock.jpg",
     "description":
       "The fourth and final project in bootcamp and my first MERN stack application.",
-    "technologies": "Back end dev on a team of four. MERN stack application.",
+    "technologies": "Back end dev on a team of four. MERN stack.",
     "gitHub": "https://github.com/marcushilaire/5oclock-dc",
     "deployed": "http://www.5oclockdc.com/",
     "video": "",

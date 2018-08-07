@@ -24,19 +24,25 @@ class RenderSingle extends Component {
             alt={this.props.elements.name}
           />
           <div className="singleLink">
-            <a href={this.props.elements.gitHub}>GitHub</a>{" "}
+            <a href={this.props.elements.gitHub} target="_blank">
+              GitHub
+            </a>{" "}
             {this.props.elements.deployed || this.props.elements.video
               ? " | "
               : ""}
             {/* conditional for the deployed link */}
             {this.props.elements.deployed ? (
-              <a href={this.props.elements.deployed}>Deployed</a>
+              <a href={this.props.elements.deployed} target="_blank">
+                Deployed
+              </a>
             ) : (
               ""
             )}
             {/* conditional for the video link */}
             {this.props.elements.video ? (
-              <a href={this.props.elements.video}>Video</a>
+              <a href={this.props.elements.video} target="_blank">
+                Video
+              </a>
             ) : (
               ""
             )}
