@@ -23,14 +23,22 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-/* End of base react stuff  */
+/* End of base react stuff */
 
-/* start of navbar css */
+/* Start of navbar */
 .focus {
   text-align: center;
   color: black;
   background-color: #f2f4f3;
   border-radius: 25px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.navPill {
+  text-align: center;
+  margin-bottom: 3px;
+  margin-top: 3px;
 }
 
 #navName {
@@ -45,7 +53,6 @@ body {
 #mainNav,
 #navName {
   background-color: #22333b;
-
   color: #f2f4f3;
 }
 
@@ -55,16 +62,14 @@ body {
   background-color: black;
 }
 
-.navPill {
-  text-align: center;
-}
-
 .navPill:hover {
   background-color: #0d3b66;
   animation: grow 0.25s linear;
   transform: scale(1.12);
   border-radius: 25px;
-  z-index: 3;
+  z-index: 1;
+  margin-bottom: 3px;
+  margin-top: 3px;
 }
 
 .fa-arrow-left {
@@ -109,6 +114,7 @@ body {
     text-align: left;
   }
 }
+
 @media (max-width: 767px) {
   #mainNav {
     margin-top: -1px;
@@ -117,9 +123,9 @@ body {
     padding-top: 155px;
   }
 }
-/* end of navbar css */
+/* End of navbar */
 
-/* start of RenderSingle css */
+/* Start of RenderSingle */
 .singleImage {
   margin-bottom: 5px;
   margin-right: 5px;
@@ -156,7 +162,6 @@ body {
 
 .singleTextBox {
   text-align: left;
-  /* background-color: #48555c; */
   background-color: #293738;
   background-image: url(/assets/images/blackOrchid.png);
   color: #f2f4f3;
@@ -168,9 +173,9 @@ body {
 .techUsed {
   text-align: center;
 }
-/* end of renderSingle css */
+/* End of renderSingle */
 
-/* thumbnails */
+/* Thumbnails */
 .projectThumbnail,
 .featuredThumbnail {
   background-color: #22333b;
@@ -195,8 +200,9 @@ body {
   max-width: 50%;
   interesting interaction
 } */
+/* End of thumbnail */
 
-/* footer */
+/* Footer */
 #footertext {
   float: none;
   color: white;
@@ -217,16 +223,19 @@ footer {
   }
 }
 
-/* animations */
-@keyframes App-logo-spin {
+/* Animations */
+
+/* Old React Spin */
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
+/* Associated with .fa-arrow-left */
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -245,6 +254,8 @@ footer {
   }
 }
 
+/* Associated with .featuredImg :hover .navPill :hover */
+
 @keyframes grow {
   0% {
     transform: scale(1);
@@ -254,12 +265,14 @@ footer {
   }
 }
 
+/* Associated with .fa-arrow-left :hover */
 @keyframes pulseGrow {
   100% {
     transform: scale(1.12);
   }
 }
 
+/* Associated with .fa-star */
 @keyframes wiggle {
   0% {
     transform: rotate(-15deg);
@@ -278,7 +291,7 @@ footer {
   }
 }
 
-/* quality of life pointers */
+/* Quality of life pointers */
 .navPill,
 .featuredThumbnail,
 .fa-arrow-left,
