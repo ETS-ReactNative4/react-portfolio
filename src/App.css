@@ -168,6 +168,7 @@ body {
   margin-bottom: 30px;
   padding: 10px;
   border-radius: 25px;
+  animation: fadeIn 0.3s linear;
 }
 
 .techUsed {
@@ -183,6 +184,7 @@ body {
   color: white;
   padding: 0px;
   margin-bottom: 15px;
+  animation: fadeIn 0.3s linear;
 }
 
 .featuredThumbnail :hover {
@@ -255,7 +257,6 @@ footer {
 }
 
 /* Associated with .featuredImg :hover .navPill :hover */
-
 @keyframes grow {
   0% {
     transform: scale(1);
@@ -288,6 +289,16 @@ footer {
   }
   100% {
     transform: rotate(-15deg);
+  }
+}
+
+/* Associated with .singleTextbox, .featuredThumbnail and projectThumbnail */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
