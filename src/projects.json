@@ -24,8 +24,8 @@
     "thumbnail": "./assets/images/projectThumbnails/Budget.png",
     "description": "My first project and it was entirely front end. I focused mainly on the javascript and was responsible for learning and implementing charts.js. This was before we learned any database or backend so all data persistence was done through local storage. This app could have really flourished if built on the MERN stack and used authentcation. I intend to rebuild it some time in the future.",
     "technologies": "Built with jquery, bulma and charts.js.",
-    "gitHub": "https://github.com/marcushilaire/group-project1",
-    "deployed": "https://marcushilaire.github.io/group-project1/",
+    "gitHub": "https://github.com/marcushilaire/Budget-Tracker",
+    "deployed": "https://marcushilaire.github.io/Budget-Tracker/",
     "video": "",
     "featured": true
   },
