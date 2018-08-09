@@ -12,8 +12,7 @@
   {
     "name": "Crystal Collector",
     "thumbnail": "./assets/images/projectThumbnails/Crystal.jpg",
-    "description":
-      "My second javascript homework assignment. This is when I first had the opportunity to properly explore jquery and event listeners. I wrote the entire epplication out on paper before writing any code. This assignment is when things started to click for me in bootcamp",
+    "description": "My second javascript homework assignment. This is when I first had the opportunity to properly explore jquery and event listeners. I wrote the entire epplication out on paper before writing any code. This assignment is when things started to click for me in bootcamp",
     "technologies": "Built with jquery and bootstrap.",
     "gitHub": "https://github.com/marcushilaire/Crystal-Collector",
     "deployed": "https://marcushilaire.github.io/Crystal-Collector/",
@@ -23,8 +22,7 @@
   {
     "name": "Budget Tracker",
     "thumbnail": "./assets/images/projectThumbnails/Budget.png",
-    "description":
-      "My first project and it was entirely front end. I focused mainly on the javascript and was responsible for learning and implementing charts.js. This was before we learned any database or backend so all data persistence was done through local storage. This app could have really flourished if built on the MERN stack and used authentcation. I intend to rebuild it some time in the future.",
+    "description": "My first project and it was entirely front end. I focused mainly on the javascript and was responsible for learning and implementing charts.js. This was before we learned any database or backend so all data persistence was done through local storage. This app could have really flourished if built on the MERN stack and used authentcation. I intend to rebuild it some time in the future.",
     "technologies": "Built with jquery, bulma and charts.js.",
     "gitHub": "https://github.com/marcushilaire/group-project1",
     "deployed": "https://marcushilaire.github.io/group-project1/",
@@ -45,8 +43,7 @@
     "name": "LIRI",
     "thumbnail": "./assets/images/projectThumbnails/Node.png",
     "description": "",
-    "technologies":
-      "A node app built with .env. Uses Spotify, Twitter and OMDB API.",
+    "technologies": "A node app built with .env. Uses Spotify, Twitter and OMDB API.",
     "gitHub": "https://github.com/marcushilaire/LIRI-Node-App",
     "deployed": "",
     "video": "",
@@ -65,10 +62,8 @@
   {
     "name": "Band It",
     "thumbnail": "./assets/images/projectThumbnails/BandIt.jpg",
-    "description":
-      "My second project, started just after we learned express and was the first full application I built with a back end. I focused on backend scaffolding and routing. Once that was complete I worked on the Spotify Authorization feature.",
-    "technologies":
-      "Built with jquery, bootstrap and express. Uses Spotify, BandsInTown and Yelp API",
+    "description": "My second project, started just after we learned express and was the first full application I built with a back end. I focused on backend scaffolding and routing. Once that was complete I worked on the Spotify Authorization feature.",
+    "technologies": "Built with jquery, bootstrap and express. Uses Spotify, BandsInTown and Yelp API",
     "gitHub": "https://github.com/marcushilaire/band-it",
     "deployed": "http://www.catchbandit.com/",
     "video": "",
@@ -80,8 +75,7 @@
     "description": "",
     "technologies": "A node app that interfaces with a mysql database",
     "gitHub": "https://github.com/marcushilaire/bamazon",
-    "video":
-      "https://drive.google.com/file/d/122aX2d_zKXXszpCEiZXfd5RRYZwmHqtn/view?usp=sharing",
+    "video": "https://drive.google.com/file/d/122aX2d_zKXXszpCEiZXfd5RRYZwmHqtn/view?usp=sharing",
     "featured": false
   },
   {
@@ -97,10 +91,8 @@
   {
     "name": "Link Up",
     "thumbnail": "./assets/images/projectThumbnails/LinkUp.png",
-    "description":
-      "My third project, started just after we learned sequelize and was our first full stack application. Although it worked out, I found that I spent too much time on the spotify feature in my previous project. To avoid doing that here, I focused on core functionality on the back end, like user interation, rather than bonus features.",
-    "technologies":
-      "Back end dev on a team of four. Built with jquery, cheerio, amazon bucket, handlebars, express and sequelize.",
+    "description": "My third project, started just after we learned sequelize and was our first full stack application. Although it worked out, I found that I spent too much time on the spotify feature in my previous project. To avoid doing that here, I focused on core functionality on the back end, like user interation, rather than bonus features.",
+    "technologies": "Back end dev on a team of four. Built with jquery, cheerio, amazon bucket, handlebars, express and sequelize.",
     "gitHub": "https://github.com/marcushilaire/linkup",
     "deployed": "http://www.addlinkup.com/",
     "video": "",
@@ -119,8 +111,7 @@
   {
     "name": "5 O'Clock",
     "thumbnail": "./assets/images/projectThumbnails/5oClock.jpg",
-    "description":
-      "The fourth and final project in bootcamp and my first MERN stack application.",
+    "description": "Final project in botcamp. I managed the database by creating a script that would seed it and created periodic backups. I also scaffolded the entire backend and created routes allowing the client to interact with the database. I learned how important the planning phase of development is and was able to andticipate the needs of the team in order to create database routes in advance streamlining our workflow.",
     "technologies": "Back end dev on a team of four. MERN stack.",
     "gitHub": "https://github.com/marcushilaire/5oclock-dc",
     "deployed": "http://www.5oclockdc.com/",
@@ -130,9 +121,8 @@
   {
     "name": "Lifelong Learning",
     "thumbnail": "./assets/images/projectThumbnails/Node.png",
-    "description": "",
-    "technologies":
-      "Testing unfamiliar methods or libraries and going through their documenation.",
+    "description": "I learned enough during bootcamp to know that I've really only just began learning. This is where I create small applications to teach myself unfamiliar topics and take notes.",
+    "technologies": "Testing unfamiliar methods or libraries and going through their documenation.",
     "gitHub": "https://github.com/marcushilaire/Learning",
     "deployed": "",
     "video": "",
@@ -141,7 +131,7 @@
   {
     "name": "Hide API Keys (Tutorial)",
     "thumbnail": "./assets/images/projectThumbnails/Node.png",
-    "description": "",
+    "description": "Around my second project in bootcamp, Band-It, I realized that I did not properly hide my API keys in deployment. In fact, I didnt even know how to. In order to help my students, I created this tutorial that teaches them how to keep their API keys properly hidden when deploying to heroku.",
     "technologies": "Added .env and express to GIPHY",
     "gitHub": "https://github.com/marcushilaire/hidekeys",
     "deployed": "https://hide-api-keys.herokuapp.com/",
