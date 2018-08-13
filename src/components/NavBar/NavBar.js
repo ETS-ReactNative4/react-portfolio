@@ -3,7 +3,7 @@ const NavBar = props => (
   <div className="container">
     <div className="row">
       {props.focus === "featured" ? (
-        <h3 className="col-xs-12 col-md-4 focus">Featured Projects</h3>
+        <h3 className="col-xs-12 col-md-4 focus">Featured</h3>
       ) : (
         <h3
           onClick={() => props.changeFocus("featured")}
