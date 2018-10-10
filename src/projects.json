@@ -132,9 +132,19 @@
     "name": "Hide API Keys (Tutorial)",
     "thumbnail": "./assets/images/projectThumbnails/Node.png",
     "description": "Around my second project in bootcamp, Band-It, I realized that I did not properly hide my API keys in deployment. In fact, I didnt even know how to. In order to help my students, I created this tutorial that teaches them how to keep their API keys properly hidden when deploying to heroku.",
-    "technologies": "Added .env and express to GIPHY",
+    "technologies": "Added .env and express to GIPHY.",
     "gitHub": "https://github.com/marcushilaire/hidekeys",
     "deployed": "https://hide-api-keys.herokuapp.com/",
+    "video": "",
+    "featured": true
+  },
+  {
+    "name": "Teleportation Algorithm",
+    "thumbnail": "./assets/images/projectThumbnails/Portal.jpg",
+    "description": "You have discovered the secrets of teleportation and have several teleportation routes up and running. Each route allows instantaneous travel from one city to another. All routes are two way: if you can teleport from city A to city B, you can also teleport from city B to city A. You want to create a system to make it easier for you to answer specific questions about your network. You should assume anyone using your network wants to travel only by teleportation. You must be able to answer the following questions. What cities can I reach from city X with a maximum of N jumps? Can someone get from city X to city Y? Starting in city X, is it possible to travel in a loop (leave the city on one route and return on another, without traveling along the same route twice)?",
+    "technologies": "A coding challenge for a job I interviewed for.",
+    "gitHub": "https://github.com/marcushilaire/Teleportation-Algorithm",
+    "deployed": "",
     "video": "",
     "featured": true
   }
