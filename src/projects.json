@@ -63,7 +63,7 @@
     "name": "Band It",
     "thumbnail": "./assets/images/projectThumbnails/BandIt.jpg",
     "description": "My second project, started just after we learned express and was the first full application I built with a back end. I focused on backend scaffolding and routing. Once that was complete I worked on the Spotify Authorization feature.",
-    "technologies": "Built with jquery, bootstrap and express. Uses Spotify, BandsInTown and Yelp API",
+    "technologies": "Built with jquery, bootstrap and express. Uses Spotify, BandsInTown and Yelp API.",
     "gitHub": "https://github.com/marcushilaire/band-it",
     "deployed": "http://www.catchbandit.com/",
     "video": "",

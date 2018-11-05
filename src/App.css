@@ -126,7 +126,8 @@ body {
 /* End of navbar */
 
 /* Start of RenderSingle */
-.singleImage {
+.singleImage,
+.dogImg {
   margin-bottom: 5px;
   margin-right: 5px;
   border-radius: 25px;
@@ -141,6 +142,10 @@ body {
   .singleImage {
     float: left;
     max-width: 30%;
+  }
+  .dogImg {
+    max-width: 30%;
+    float: right;
   }
 }
 
