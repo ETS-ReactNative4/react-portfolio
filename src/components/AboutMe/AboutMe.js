@@ -48,7 +48,7 @@ const AboutMe = props => (
           I also have two dogs that I love very much, they live in Trinidad with
           my parents. Toolum (right) loves to hunt and is convinced that she is
           a big dog. Rocher (left) is a picky eater and enjoys barking at things
-          only she can see
+          only she can see.
         </p>
         <div id="dogBox">
           <img
