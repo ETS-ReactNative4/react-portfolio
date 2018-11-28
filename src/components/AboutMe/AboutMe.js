@@ -11,7 +11,7 @@ const AboutMe = props => (
         <h1> Caribbean born, world raised.</h1>
         <p>
           I was born in Trinidad and Tobago and moved to Maryland, where I spent
-          most of my childhood. When I as in 7th grade, my family moved to
+          most of my childhood. When I was in 7th grade, my family moved to
           Guinea to follow my father’s work. Not long after we arrived my school
           was closed for many months as a result of a nation wide strike.
           Keeping my education a priority, my father began teaching me from home
@@ -37,16 +37,17 @@ const AboutMe = props => (
         {/* </div> */}
         <p>
           At first I struggled, I had never seen javascript and I only had a
-          vague idea of how HTML worked.I found myself thoroughly enjoying the
-          most difficult challenges I had ever faced. Every unfamiliar obstacle
-          I encountered was an opportunity to learn something new. I knew I had
-          found something I love to do and that my drive to excel would be
-          fueled by my passion and curiosity. Just before my completion of the
-          coursework I was hired as a member of the teaching staff for the
-          following cohort. Working as a teaching assistant made me realize that
-          the only thing more rewarding than surmounting a new challenge is
-          helping a student do so. Now that my students have graduated I am
-          eager to see what the next steps in my career have to offer.
+          vague idea of how HTML worked. However, I soon found myself thoroughly
+          enjoying the most difficult challenges I had ever faced. Every
+          unfamiliar obstacle I encountered was an opportunity to learn
+          something new. I knew I had found something I love to do and that my
+          drive to excel would be fueled by my passion and curiosity. Just
+          before my completion of the coursework I was hired as a member of the
+          teaching staff for the following cohort. Working as a teaching
+          assistant made me realize that the only thing more rewarding than
+          surmounting a new challenge is helping a student do so. Now that my
+          students have graduated I am eager to see what the next steps in my
+          career have to offer.
         </p>
       </div>
     </div>
