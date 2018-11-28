@@ -2,7 +2,7 @@ import React from "react";
 const AboutMe = props => (
   <div className="row">
     <div className="singleTextBox">
-      <h1 className="tagline"> Caribbean born, world raised.</h1>
+      <h1 id="tagline"> Caribbean Born, World Raised.</h1>
       <img
         className="img-fluid singleImage"
         src="./assets/images/Me.jpg"
@@ -24,15 +24,13 @@ const AboutMe = props => (
           experience my culture. Six years after I left the Washington, DC metro
           area I returned to attend The George Washington University School of
           Business where I majored in accounting. With gaming as a lifelong
-          hobby I had always been interested in coding. After I graduated I
-          finally decided to learn and applied for the full time coding bootcamp
-          offered by GWU.
+          hobby I had always been interested in coding but did not have the time
+          to teach myself. After I graduated I finally decided to learn and
+          applied for the full time coding bootcamp offered by GWU.
         </p>
-        {/* <div id="dogBox"> */}
 
-        {/* </div> */}
         <p>
-          At first I struggled, I had never seen javascript and I only had a
+          At first I struggled. I had never seen javascript and I only had a
           vague idea of how HTML worked. However, I soon found myself thoroughly
           enjoying the most difficult challenges I had ever faced. Every
           unfamiliar obstacle I encountered was an opportunity to learn
@@ -45,21 +43,30 @@ const AboutMe = props => (
           students have graduated I am eager to see what the next steps in my
           career have to offer.
         </p>
-        <img
-          className="img-fluid dogImg"
-          src="./assets/images/Rocher.jpg"
-          alt="Toolum"
-        />
-        <img
-          className="img-fluid dogImg"
-          src="./assets/images/Both.jpg"
-          alt="Toolum"
-        />
-        <img
-          className="img-fluid dogImg"
-          src="./assets/images/Toolum.jpg"
-          alt="Toolum"
-        />
+
+        <p>
+          I also have two dogs that I love very much, they live in Trinidad with
+          my parents. Toolum (right) loves to hunt and is convinced that she is
+          a big dog. Rocher (left) is a picky eater and enjoys barking at things
+          only she can see
+        </p>
+        <div id="dogBox">
+          <img
+            className="img-fluid dogImg"
+            src="./assets/images/Rocher.jpg"
+            alt="Rocher"
+          />
+          <img
+            className="img-fluid dogImg"
+            src="./assets/images/Both.jpg"
+            alt="Both"
+          />
+          <img
+            className="img-fluid dogImg"
+            src="./assets/images/Toolum.jpg"
+            alt="Toolum"
+          />
+        </div>
       </div>
     </div>
   </div>

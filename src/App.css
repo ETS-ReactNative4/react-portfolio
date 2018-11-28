@@ -126,6 +126,10 @@ body {
 /* End of navbar */
 
 /* Start of RenderSingle */
+#tagline {
+  text-align: center;
+}
+
 .singleImage,
 .dogImg {
   margin-bottom: 5px;
@@ -176,6 +180,9 @@ body {
 }
 
 .techUsed {
+  text-align: center;
+}
+#dogBox {
   text-align: center;
 }
 /* End of renderSingle */
