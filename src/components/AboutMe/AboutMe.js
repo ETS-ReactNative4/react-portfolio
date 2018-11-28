@@ -2,13 +2,13 @@ import React from "react";
 const AboutMe = props => (
   <div className="row">
     <div className="singleTextBox">
+      <h1 className="tagline"> Caribbean born, world raised.</h1>
       <img
         className="img-fluid singleImage"
         src="./assets/images/Me.jpg"
         alt="Me"
       />
       <div className="singleText">
-        <h1> Caribbean born, world raised.</h1>
         <p>
           I was born in Trinidad and Tobago and moved to Maryland, where I spent
           most of my childhood. When I was in 7th grade, my family moved to
@@ -29,11 +29,7 @@ const AboutMe = props => (
           offered by GWU.
         </p>
         {/* <div id="dogBox"> */}
-        <img
-          className="img-fluid dogImg"
-          src="./assets/images/Dog.jpg"
-          alt="Toolum"
-        />
+
         {/* </div> */}
         <p>
           At first I struggled, I had never seen javascript and I only had a
@@ -49,6 +45,21 @@ const AboutMe = props => (
           students have graduated I am eager to see what the next steps in my
           career have to offer.
         </p>
+        <img
+          className="img-fluid dogImg"
+          src="./assets/images/Rocher.jpg"
+          alt="Toolum"
+        />
+        <img
+          className="img-fluid dogImg"
+          src="./assets/images/Both.jpg"
+          alt="Toolum"
+        />
+        <img
+          className="img-fluid dogImg"
+          src="./assets/images/Toolum.jpg"
+          alt="Toolum"
+        />
       </div>
     </div>
   </div>
