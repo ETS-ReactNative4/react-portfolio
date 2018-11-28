@@ -8,88 +8,45 @@ const AboutMe = props => (
         alt="Me"
       />
       <div className="singleText">
-        <h1> In Development Please Excuse Filler Text</h1>
+        <h1> Caribbean born, world raised.</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
-          iaculis dolor. Praesent lacinia lacus quis ipsum aliquam laoreet. Sed
-          tempor imperdiet sapien. Proin nec nisi placerat, vulputate leo vel,
-          fringilla tellus. Nam sollicitudin dolor a sodales porttitor. Nam eu
-          porta risus. Proin consequat pretium nibh, nec euismod turpis varius
-          nec. Nam a sapien rutrum lorem congue finibus a non arcu. Suspendisse
-          nec lorem vehicula, tincidunt mauris id, lacinia tellus. Nulla
-          fermentum mi bibendum, tincidunt mi eu, facilisis erat. Suspendisse
-          aliquet tincidunt lorem, nec eleifend neque faucibus vel. Proin in
-          suscipit mi, nec vestibulum sapien. Proin augue arcu, vehicula id
-          ultrices at, lobortis ut massa. Orci varius natoque penatibus et
-          magnis dis parturient montes, nascetur ridiculus mus. Vestibulum quam
-          ante, lobortis in velit a, pharetra laoreet velit. Sed pellentesque
-          suscipit ligula. Aliquam neque ante, fermentum et purus at, blandit
-          malesuada velit. Sed porta pulvinar turpis a consequat. Sed id lorem
-          eu dui fringilla ultricies ac sed ligula. Integer nulla metus,
-          sagittis at neque at, vulputate facilisis magna. Praesent venenatis
-          pretium est ac aliquet. Integer aliquam turpis vel mauris tincidunt
-          blandit. Integer consectetur auctor dolor in ultrices. Nunc placerat
-          maximus nisi vel faucibus. Quisque venenatis fringilla lacinia. Sed in
-          ligula at quam mollis interdum. Phasellus efficitur tincidunt
-          elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Phasellus nec iaculis dolor. Praesent lacinia lacus quis ipsum aliquam
-          laoreet. Sed tempor imperdiet sapien. Proin nec nisi placerat,
-          vulputate leo vel, fringilla tellus. Nam sollicitudin dolor a sodales
-          porttitor. Nam eu porta risus. Proin consequat pretium nibh, nec
-          euismod turpis varius nec. Nam a sapien rutrum lorem congue finibus a
-          non arcu. Suspendisse nec lorem vehicula, tincidunt mauris id, lacinia
-          tellus. Nulla fermentum mi bibendum, tincidunt mi eu, facilisis erat.
-          Suspendisse aliquet tincidunt lorem, nec eleifend neque faucibus vel.
-          Proin in suscipit mi, nec vestibulum sapien. Proin augue arcu,
-          vehicula id ultrices at, lobortis ut massa. Orci varius natoque
-          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          Vestibulum quam ante, lobortis in velit a, pharetra laoreet velit. Sed
-          pellentesque suscipit ligula. Aliquam neque ante, fermentum et purus
-          at, blandit malesuada velit. Sed porta pulvinar turpis a consequat.
+          I was born in Trinidad and Tobago and moved to Maryland, where I spent
+          most of my childhood. When I as in 7th grade, my family moved to
+          Guinea to follow my father’s work. Not long after we arrived my school
+          was closed for many months as a result of a nation wide strike.
+          Keeping my education a priority, my father began teaching me from home
+          while he organized for me to live with a family friend in Ghana and
+          finish the school year there. Due to the frequency and
+          unpredictability of civil unrest in Guinea, my father left his job and
+          we moved back to Trinidad so that I could have consistency through
+          high school. Although we visited many times in my childhood, I was
+          excited to finally have the opportunity to live in and properly
+          experience my culture. Six years after I left the Washington, DC metro
+          area I returned to attend The George Washington University School of
+          Business where I majored in accounting. With gaming as a lifelong
+          hobby I had always been interested in coding. After I graduated I
+          finally decided to learn and signed up for GWU’s full time coding
+          bootcamp.
         </p>
-        <div id="dogBox">
-          <img
-            className="img-fluid dogImg"
-            src="./assets/images/Dog.jpg"
-            alt="Toolum"
-          />
-        </div>
+        {/* <div id="dogBox"> */}
+        <img
+          className="img-fluid dogImg"
+          src="./assets/images/Dog.jpg"
+          alt="Toolum"
+        />
+        {/* </div> */}
         <p>
-          Sed id lorem eu dui fringilla ultricies ac sed ligula. Integer nulla
-          metus, sagittis at neque at, vulputate facilisis magna. Praesent
-          venenatis pretium est ac aliquet. Integer aliquam turpis vel mauris
-          tincidunt blandit. Integer consectetur auctor dolor in ultrices. Nunc
-          placerat maximus nisi vel faucibus. Quisque venenatis fringilla
-          lacinia. Sed in ligula at quam mollis interdum. Phasellus efficitur
-          tincidunt elementum. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Phasellus nec iaculis dolor. Praesent lacinia lacus
-          quis ipsum aliquam laoreet. Sed tempor imperdiet sapien. Proin nec
-          nisi placerat, vulputate leo vel, fringilla tellus. Nam sollicitudin
-          dolor a sodales porttitor. Nam eu porta risus. Proin consequat pretium
-          nibh, nec euismod turpis varius nec. Nam a sapien rutrum lorem congue
-          finibus a non arcu. Suspendisse nec lorem vehicula, tincidunt mauris
-          id, lacinia tellus. Nulla fermentum mi bibendum, tincidunt mi eu,
-          facilisis erat. Suspendisse aliquet tincidunt lorem, nec eleifend
-          neque faucibus vel. Proin in suscipit mi, nec vestibulum sapien. Proin
-          augue arcu, vehicula id ultrices at, lobortis ut massa. Orci varius
-          natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-          mus. Vestibulum quam ante, lobortis in velit a, pharetra laoreet
-          velit. Sed pellentesque suscipit ligula. Aliquam neque ante, fermentum
-          et purus at, blandit malesuada velit. Sed porta pulvinar turpis a
-          consequat. Sed id lorem eu dui fringilla ultricies ac sed ligula.
-          Integer nulla metus, sagittis at neque at, vulputate facilisis magna.
-          Praesent venenatis pretium est ac aliquet. Integer aliquam turpis vel
-          mauris tincidunt blandit. Integer consectetur auctor dolor in
-          ultrices. Nunc placerat maximus nisi vel faucibus. Quisque venenatis
-          fringilla lacinia. Sed in ligula at quam mollis interdum. Phasellus
-          efficitur tincidunt elementum. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Phasellus nec iaculis dolor. Praesent lacinia lacus
-          quis ipsum aliquam laoreet. Sed tempor imperdiet sapien. Proin nec
-          nisi placerat, vulputate leo vel, fringilla tellus. Nam sollicitudin
-          dolor a sodales porttitor. Nam eu porta risus. Proin consequat pretium
-          nibh, nec euismod turpis varius nec. Nam a sapien rutrum lorem congue
-          finibus a non arcu. Suspendisse nec lorem vehicula, tincidunt mauris
-          id, lacin
+          At first I struggled, I had never seen javascript and I only had a
+          vague idea of how HTML worked.I found myself thoroughly enjoying the
+          most difficult challenges I had ever faced. Every unfamiliar obstacle
+          I encountered was an opportunity to learn something new. I knew I had
+          found something I love to do and that my drive to excel would be
+          fueled by my passion and curiosity. Just before my completion of the
+          coursework I was hired as a member of the teaching staff for the
+          following cohort. Working as a teaching assistant made me realize that
+          the only thing more rewarding than surmounting a new challenge is
+          helping a student do so. Now that my students have graduated I am
+          eager to see what the next steps in my career have to offer.
         </p>
       </div>
     </div>
