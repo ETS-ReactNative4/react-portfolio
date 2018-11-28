@@ -25,8 +25,8 @@ const AboutMe = props => (
           area I returned to attend The George Washington University School of
           Business where I majored in accounting. With gaming as a lifelong
           hobby I had always been interested in coding. After I graduated I
-          finally decided to learn and signed up for GWU’s full time coding
-          bootcamp.
+          finally decided to learn and applied for the full time coding bootcamp
+          offered by GWU.
         </p>
         {/* <div id="dogBox"> */}
         <img
