@@ -24,9 +24,9 @@ const AboutMe = props => (
           experience my culture. Six years after I left the Washington, DC metro
           area I returned to attend The George Washington University School of
           Business where I majored in accounting. My desire to build and problem
-          solve was not sated in this field so I turned to a lifelong
-          curiousity: software development. After I graduated I finally decided
-          to learn and applied for the full time coding bootcamp offered by GWU.
+          solve was not sated in this field so I turned to a lifelong curiosity:
+          software development. After I graduated I finally decided to learn and
+          applied for the full time coding bootcamp offered by GWU.
         </p>
 
         <p>
