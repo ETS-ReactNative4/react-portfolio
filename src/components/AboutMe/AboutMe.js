@@ -23,10 +23,10 @@ const AboutMe = props => (
           excited to finally have the opportunity to live in and properly
           experience my culture. Six years after I left the Washington, DC metro
           area I returned to attend The George Washington University School of
-          Business where I majored in accounting. With gaming as a lifelong
-          hobby I had always been interested in coding but did not have the time
-          to teach myself. After I graduated I finally decided to learn and
-          applied for the full time coding bootcamp offered by GWU.
+          Business where I majored in accounting. My desire to build and problem
+          solve was not sated in this field so I turned to a lifelong
+          curiousity: software development. After I graduated I finally decided
+          to learn and applied for the full time coding bootcamp offered by GWU.
         </p>
 
         <p>
@@ -37,18 +37,18 @@ const AboutMe = props => (
           something new. I knew I had found something I love to do and that my
           drive to excel would be fueled by my passion and curiosity. Just
           before my completion of the coursework I was hired as a member of the
-          teaching staff for the following cohort. Working as a teaching
+          instructional staff for the following cohort. Working as a teaching
           assistant made me realize that the only thing more rewarding than
-          surmounting a new challenge is helping a student do so. Now that my
+          surmounting a new challenge was helping a student do so. Now that my
           students have graduated I am eager to see what the next steps in my
           career have to offer.
         </p>
 
         <p>
           I also have two dogs that I love very much, they live in Trinidad with
-          my parents. Toolum (right) loves to hunt and is convinced that she is
-          a big dog. Rocher (left) is a picky eater and enjoys barking at things
-          only she can see.
+          my parents. Toolum (Black) loves to hunt and is convinced that she is
+          a big dog. Rocher (Brown) is a picky eater and enjoys barking at
+          things only she can see.
         </p>
         <div id="dogBox">
           <img
