@@ -38,6 +38,9 @@ class RenderSingle extends Component {
             ) : (
               ""
             )}
+            {this.props.elements.deployed && this.props.elements.video
+              ? " | "
+              : ""}
             {/* conditional for the video link */}
             {this.props.elements.video ? (
               <a href={this.props.elements.video} target="_blank">
@@ -63,7 +66,8 @@ class RenderSingle extends Component {
                 <p className="apiResults" key={currVal.commit.committer.date}>
                   {this.normaliseDate(
                     currVal.commit.committer.date.split("T")[0]
-                  )}: {currVal.commit.message}
+                  )}
+                  : {currVal.commit.message}
                 </p>
               );
             })}

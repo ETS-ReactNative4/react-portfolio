@@ -27,6 +27,7 @@ const Card = props => (
             ) : (
               ""
             )}
+            {props.deployed && props.video ? " | " : ""}
             {props.video ? (
               <a href={props.video} target="_blank">
                 Video
